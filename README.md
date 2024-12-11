@@ -141,5 +141,5 @@ This project simplifies several real-world factors to focus on event-driven simu
 ### Compilation
 ```bash
 make
-./proj5.exe
+valgrind --leak-check=full ./proj5.exe paramsA.txt > result.txt
 ```
