@@ -73,10 +73,13 @@ To simplify our simulation, cars will only advance through an intersection when 
 
 The light will always start as green in the east-west direction. The traffic light cycles as follows:
 
-- **Green East-West** (Red North-South)
-- **Yellow East-West** (Red North-South)
-- **Green North-South** (Red East-West)
-- **Yellow North-South** (Red East-West)
+| Current Light State                            | Changed Light State                        | Cars Advancing During Change Event Handling   |
+|------------------------------------------------|--------------------------------------------|-----------------------------------------------|
+| Green East-West (Red North-South)              | Yellow East-West                           | East-West traffic through green light         |
+| Yellow East-West (Red North-South)             | Green North-South                          | East-west traffic through yellow light        |
+| Green North-South (Red East-West)              | Yellow North-South                         | North-south traffic through green light       |
+| Yellow North-South (Red East-West)             | Green East-West                            | North-south traffic through yellow light      |
+
 
 When advancing cars through a green light, cars advance one per time-tic. A green light lasting for 20 time-tics will allow up to 20 waiting cars in both directions to advance. During a yellow light, some drivers will advance through the light while others will stop. In our simulation, we will use a uniform random number to determine whether a driver advances. For example, if 75% of drivers are expected to advance, we can simulate this by comparing a random number to 75. Drivers who decide to stop will block the cars behind them.
 
