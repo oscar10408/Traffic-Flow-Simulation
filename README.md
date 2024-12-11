@@ -1,6 +1,10 @@
 # Traffic Flow Simulation Project
 
 ## Overview
+<p float="left">
+<img src="Images/simpleHandTraceExample.png" width="200" height="150"/>
+<img src="Images/Traffic_Simulation_demo.png" width="200" height="150"/>
+</p>
 For this project, I will be provided with a significant amount of code to start with. This is very different from previous projects where I might be given only function prototypes, and I would essentially be starting from scratch. The provided classes and code will allow me to avoid spending too much time on high-level design, but I will need to spend some time understanding the provided code and how the code I will be adding will work with it.
 
 In general, this project should be less time-consuming compared to a "start from scratch" project, and will allow me to focus on the simulation aspects instead of spending too much time on file reading, error checking, or determining which attributes my `EventClass` should have. Since the end of the semester is quickly approaching, this approach provides a good opportunity to gain experience with an event-driven simulation, as well as working with someone else’s code—just as would be the case in a team-based environment.
