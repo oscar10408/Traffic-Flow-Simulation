@@ -2,8 +2,8 @@
 
 ## Overview
 <p float="left">
-<img src="Images/simpleHandTraceExample.png" width="400" height="300"/>
-<img src="Images/Traffic_Simulation_demo.png" width="400" height="300"/>
+<img src="Images/simpleHandTraceExample.png" width="500" height="375"/>
+<img src="Images/Traffic_Simulation_demo.png" width="500" height="375"/>
 </p>
 For this project, I will be provided with a significant amount of code to start with. This is very different from previous projects where I might be given only function prototypes, and I would essentially be starting from scratch. The provided classes and code will allow me to avoid spending too much time on high-level design, but I will need to spend some time understanding the provided code and how the code I will be adding will work with it.
 
