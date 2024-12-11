@@ -63,3 +63,71 @@ An example input file containing the 15 simulation control parameters might look
 **65**<br />
 For my traffic flow simulation, the input file is structured with several key parameters. The random number seed is set to 12345 to ensure reproducibility across different simulation runs. The simulation will run until the simulation clock reaches 1000 time tics. The east-west traffic light will remain green for 10 time tics and yellow for 2 time tics, while the north-south traffic light will stay green for 17 time tics and yellow for 3 time tics. Cars will arrive at the intersection from different directions according to normal distributions: east-bound cars will arrive with a mean of 3 time tics and a standard deviation of 1.04, west-bound cars will arrive with a mean of 15 time tics and a standard deviation of 2.7, north-bound cars will arrive with a mean of 7.25 time tics and a standard deviation of 0 (indicating no variation), and south-bound cars will arrive with a mean of 12.5 time tics and a standard deviation of 3.3. Additionally, on average, 65% of drivers will choose to advance through the intersection when the light is yellow. This setup defines the traffic light cycles, car arrival rates, and driver behavior, ensuring that the simulation accurately models traffic flow and decision-making at an intersection under different conditions.
 
+# Event Handling Overview
+
+The most important part of an event-driven simulation is the handling of events. As discussed in the lecture, handling an event often generates additional events that are scheduled to occur in the future. Additionally, handling an event changes the state of the simulation, such as advancing the simulation's "current time" to the time when the event occurs, and updating accumulating statistics (like maximum values, counts of objects, etc.).
+
+To simplify our simulation, cars will only advance through an intersection when the light is changing. Although this is not realistic—cars typically advance through an intersection while the light is green or yellow—we will handle it differently for simplicity. Specifically, when the light changes to yellow in the north-south direction, we will advance up to 10 cars in the north-bound queue and up to 10 cars in the south-bound queue. This simulates that all cars waiting to pass through the intersection during the green light will already be in the queues when the light turns yellow. This approach simplifies the processing. Similarly, when the light changes from yellow in the north-south direction to green in the east-west direction, we will advance cars in the north-south direction during the yellow light change.
+
+## Light Cycle
+
+The light will always start as green in the east-west direction. The traffic light cycles as follows:
+
+- **Green East-West** (Red North-South)
+- **Yellow East-West** (Red North-South)
+- **Green North-South** (Red East-West)
+- **Yellow North-South** (Red East-West)
+
+When advancing cars through a green light, cars advance one per time-tic. A green light lasting for 20 time-tics will allow up to 20 waiting cars in both directions to advance. During a yellow light, some drivers will advance through the light while others will stop. In our simulation, we will use a uniform random number to determine whether a driver advances. For example, if 75% of drivers are expected to advance, we can simulate this by comparing a random number to 75. Drivers who decide to stop will block the cars behind them.
+
+## Event Handling Specifics
+
+There are 8 types of events in our simulation:
+
+1. **Car Arrival East-bound (EVENT_ARRIVE_EAST)**: When a car arrives heading east, it is added to the east-bound queue. The next east-bound arrival is scheduled based on the arrival distribution.
+2. **Car Arrival West-bound (EVENT_ARRIVE_WEST)**: Same as the east-bound arrival, but for west-bound cars.
+3. **Car Arrival North-bound (EVENT_ARRIVE_NORTH)**: Same as the east-bound arrival, but for north-bound cars.
+4. **Car Arrival South-bound (EVENT_ARRIVE_SOUTH)**: Same as the east-bound arrival, but for south-bound cars.
+5. **Light Change from Green East-West to Yellow East-West (EVENT_CHANGE_YELLOW_EW)**: When the light changes from green to yellow in the east-west direction, up to 10 cars from the east-bound and west-bound queues advance through the intersection.
+6. **Light Change from Yellow East-West to Green North-South (EVENT_CHANGE_GREEN_NS)**: Advance cars during the yellow light for east-west traffic, then schedule the next light change to green in the north-south direction.
+7. **Light Change from Green North-South to Yellow North-South (EVENT_CHANGE_YELLOW_NS)**: Advance cars through the intersection for the green light in the north-south direction, then schedule the next light change to yellow in the north-south direction.
+8. **Light Change from Yellow North-South to Green East-West (EVENT_CHANGE_GREEN_EW)**: Advance cars during the yellow light in the north-south direction, then schedule the next light change to green in the east-west direction.
+
+## Design and Provided Code
+
+### EventClass
+I will provide most of the `EventClass` for you to use in your project. Since objects of the `EventClass` will be stored in a `SortedListClass`, you will need to overload the necessary operators to work with the templated type in the `SortedListClass`. Events are sorted by their scheduled time, so events scheduled at earlier times are handled first.
+
+### CarClass
+The `CarClass` is provided to maintain data about a car participating in the simulation. It includes a unique identifier, the direction the car is heading, and the time at which it arrived at the intersection.
+
+### IntersectionSimulationClass
+This is the primary class for the project. It will manage simulation parameters, advance the simulation state, and maintain statistics. The `IntersectionSimulationClass` will contain the event list, as well as queues for the vehicles waiting to pass through the intersection.
+
+I will provide part of the `IntersectionSimulationClass` that includes the class attributes, functionality to read simulation parameters, and print final statistics. You will need to add the event handling logic and maintain statistics.
+
+### constants.h
+I will provide predefined constants for the project. You can add more constants if needed, though the provided constants should suffice.
+
+### random.h and random.cpp
+These files contain functions to generate random numbers using uniform or normal distributions. You should use them as provided and not modify them.
+
+### project5.cpp
+The `project5.cpp` file contains the main function for the project. It is provided for you, and you should not need to modify it, but you can make minor adjustments if necessary. If you need to make major changes, consult the course staff to ensure the design is appropriate.
+
+## Things NOT to Worry About
+
+This project simplifies several real-world factors to focus on event-driven simulation concepts:
+
+- **Driver reaction times**: We assume that one car passes through the intersection in exactly one time-tic.
+- **Drivers who don't follow the rules**: All drivers stop at a red light.
+- **Turns**: The intersection does not allow turns, simplifying the simulation.
+- **Turn lights**: No left or right turn lights are needed.
+- **Malfunctions**: The traffic light never malfunctions.
+- **Red in both directions**: We don't need to handle the case where both directions are red simultaneously, as the simulation assumes one direction is always green.
+- **Other blockages**: The intersection is never blocked by construction, emergency vehicles, etc.
+
+## Approach and Output
+
+This simulation MUST be implemented as an event-driven simulation. If the simulation is implemented in any other way, such as time-driven, it will not receive credit. You are required to follow the event-driven approach as described.
+
