@@ -51,6 +51,14 @@ The simulation will require 15 control parameters to function. These parameters 
 The input file format will be a simple ASCII text file where these 15 values are provided in a whitespace-delimited format. The parameters should be in the exact order listed above.
 
 #### Example Input File
-An example input file containing the 15 simulation control parameters might look like this:
-
+An example input file containing the 15 simulation control parameters might look like this:<\br>
+12345<\br>
+1000<\br> 
+10 2<\br> 
+17 3<\br> 
+3 1.04<\br> 
+15 2.7<\br> 
+7.25 0<\br> 
+12.5 3.3<\br> 
+65<\br>
 
