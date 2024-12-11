@@ -134,3 +134,12 @@ This project simplifies several real-world factors to focus on event-driven simu
 - **Red in both directions**: We don't need to handle the case where both directions are red simultaneously, as the simulation assumes one direction is always green.
 - **Other blockages**: The intersection is never blocked by construction, emergency vehicles, etc.
 
+---
+
+## Example Usage
+
+### Compilation
+```bash
+make
+./proj5.exe
+```
