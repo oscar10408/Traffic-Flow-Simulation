@@ -1,0 +1,4308 @@
+Reading parameters from file: paramsB4.txt
+Parameters read in successfully - simulation is ready!
+===== Begin Simulation Parameters =====
+  Random generator seed: <redacted>
+  Simulation end time: 1000
+  East-West Timing - Green: 10 Yellow: 2 Red: 20
+  North-South Timing - Green: 17 Yellow: 3 Red: 12
+  Arrival Distributions:
+    East - Mean: 3 StdDev: 1.04
+    West - Mean: 15 StdDev: 2.7
+    North - Mean: 7.25 StdDev: 0
+    South - Mean: 12.5 StdDev: 3.3
+  Percentage cars advancing through yellow: 65
+===== End Simulation Parameters =====
+
+Schedule simulation seed events
+Time: 0 Scheduled Event Type: East-Bound Arrival Time: 2
+Time: 0 Scheduled Event Type: West-Bound Arrival Time: 13
+Time: 0 Scheduled Event Type: North-Bound Arrival Time: 7
+Time: 0 Scheduled Event Type: South-Bound Arrival Time: 7
+Time: 0 Scheduled Event Type: Light Change to EW Yellow Time: 10
+
+Starting simulation!
+
+Handling Event Type: East-Bound Arrival Time: 2
+Time: 2 Car #0 arrives east-bound - queue length: 1
+Time: 2 Scheduled Event Type: East-Bound Arrival Time: 7
+
+Handling Event Type: North-Bound Arrival Time: 7
+Time: 7 Car #1 arrives north-bound - queue length: 1
+Time: 7 Scheduled Event Type: North-Bound Arrival Time: 14
+
+Handling Event Type: South-Bound Arrival Time: 7
+Time: 7 Car #2 arrives south-bound - queue length: 1
+Time: 7 Scheduled Event Type: South-Bound Arrival Time: 17
+
+Handling Event Type: East-Bound Arrival Time: 7
+Time: 7 Car #3 arrives east-bound - queue length: 2
+Time: 7 Scheduled Event Type: East-Bound Arrival Time: 11
+
+Handling Event Type: Light Change to EW Yellow Time: 10
+Advancing cars on east-west green
+  Car #0 advances east-bound
+  Car #3 advances east-bound
+East-bound cars advanced on green: 2 Remaining queue: 0
+West-bound cars advanced on green: 0 Remaining queue: 0
+Time: 10 Scheduled Event Type: Light Change to NS Green Time: 12
+
+Handling Event Type: East-Bound Arrival Time: 11
+Time: 11 Car #4 arrives east-bound - queue length: 1
+Time: 11 Scheduled Event Type: East-Bound Arrival Time: 14
+
+Handling Event Type: Light Change to NS Green Time: 12
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 1
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 12 Scheduled Event Type: Light Change to NS Yellow Time: 29
+
+Handling Event Type: West-Bound Arrival Time: 13
+Time: 13 Car #5 arrives west-bound - queue length: 1
+Time: 13 Scheduled Event Type: West-Bound Arrival Time: 32
+
+Handling Event Type: North-Bound Arrival Time: 14
+Time: 14 Car #6 arrives north-bound - queue length: 2
+Time: 14 Scheduled Event Type: North-Bound Arrival Time: 21
+
+Handling Event Type: East-Bound Arrival Time: 14
+Time: 14 Car #7 arrives east-bound - queue length: 2
+Time: 14 Scheduled Event Type: East-Bound Arrival Time: 16
+
+Handling Event Type: East-Bound Arrival Time: 16
+Time: 16 Car #8 arrives east-bound - queue length: 3
+Time: 16 Scheduled Event Type: East-Bound Arrival Time: 18
+
+Handling Event Type: South-Bound Arrival Time: 17
+Time: 17 Car #9 arrives south-bound - queue length: 2
+Time: 17 Scheduled Event Type: South-Bound Arrival Time: 26
+
+Handling Event Type: East-Bound Arrival Time: 18
+Time: 18 Car #10 arrives east-bound - queue length: 4
+Time: 18 Scheduled Event Type: East-Bound Arrival Time: 22
+
+Handling Event Type: North-Bound Arrival Time: 21
+Time: 21 Car #11 arrives north-bound - queue length: 3
+Time: 21 Scheduled Event Type: North-Bound Arrival Time: 28
+
+Handling Event Type: East-Bound Arrival Time: 22
+Time: 22 Car #12 arrives east-bound - queue length: 5
+Time: 22 Scheduled Event Type: East-Bound Arrival Time: 26
+
+Handling Event Type: South-Bound Arrival Time: 26
+Time: 26 Car #13 arrives south-bound - queue length: 3
+Time: 26 Scheduled Event Type: South-Bound Arrival Time: 35
+
+Handling Event Type: East-Bound Arrival Time: 26
+Time: 26 Car #14 arrives east-bound - queue length: 6
+Time: 26 Scheduled Event Type: East-Bound Arrival Time: 29
+
+Handling Event Type: North-Bound Arrival Time: 28
+Time: 28 Car #15 arrives north-bound - queue length: 4
+Time: 28 Scheduled Event Type: North-Bound Arrival Time: 35
+
+Handling Event Type: Light Change to NS Yellow Time: 29
+Advancing cars on north-south green
+  Car #1 advances north-bound
+  Car #6 advances north-bound
+  Car #11 advances north-bound
+  Car #15 advances north-bound
+  Car #2 advances south-bound
+  Car #9 advances south-bound
+  Car #13 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 29 Scheduled Event Type: Light Change to EW Green Time: 32
+
+Handling Event Type: East-Bound Arrival Time: 29
+Time: 29 Car #16 arrives east-bound - queue length: 7
+Time: 29 Scheduled Event Type: East-Bound Arrival Time: 32
+
+Handling Event Type: West-Bound Arrival Time: 32
+Time: 32 Car #17 arrives west-bound - queue length: 2
+Time: 32 Scheduled Event Type: West-Bound Arrival Time: 44
+
+Handling Event Type: Light Change to EW Green Time: 32
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 32 Scheduled Event Type: Light Change to EW Yellow Time: 42
+
+Handling Event Type: East-Bound Arrival Time: 32
+Time: 32 Car #18 arrives east-bound - queue length: 8
+Time: 32 Scheduled Event Type: East-Bound Arrival Time: 36
+
+Handling Event Type: South-Bound Arrival Time: 35
+Time: 35 Car #19 arrives south-bound - queue length: 1
+Time: 35 Scheduled Event Type: South-Bound Arrival Time: 46
+
+Handling Event Type: North-Bound Arrival Time: 35
+Time: 35 Car #20 arrives north-bound - queue length: 1
+Time: 35 Scheduled Event Type: North-Bound Arrival Time: 42
+
+Handling Event Type: East-Bound Arrival Time: 36
+Time: 36 Car #21 arrives east-bound - queue length: 9
+Time: 36 Scheduled Event Type: East-Bound Arrival Time: 38
+
+Handling Event Type: East-Bound Arrival Time: 38
+Time: 38 Car #22 arrives east-bound - queue length: 10
+Time: 38 Scheduled Event Type: East-Bound Arrival Time: 40
+
+Handling Event Type: East-Bound Arrival Time: 40
+Time: 40 Car #23 arrives east-bound - queue length: 11
+Time: 40 Scheduled Event Type: East-Bound Arrival Time: 42
+
+Handling Event Type: Light Change to EW Yellow Time: 42
+Advancing cars on east-west green
+  Car #4 advances east-bound
+  Car #7 advances east-bound
+  Car #8 advances east-bound
+  Car #10 advances east-bound
+  Car #12 advances east-bound
+  Car #14 advances east-bound
+  Car #16 advances east-bound
+  Car #18 advances east-bound
+  Car #21 advances east-bound
+  Car #22 advances east-bound
+  Car #5 advances west-bound
+  Car #17 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 1
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 42 Scheduled Event Type: Light Change to NS Green Time: 44
+
+Handling Event Type: North-Bound Arrival Time: 42
+Time: 42 Car #24 arrives north-bound - queue length: 2
+Time: 42 Scheduled Event Type: North-Bound Arrival Time: 49
+
+Handling Event Type: East-Bound Arrival Time: 42
+Time: 42 Car #25 arrives east-bound - queue length: 2
+Time: 42 Scheduled Event Type: East-Bound Arrival Time: 44
+
+Handling Event Type: West-Bound Arrival Time: 44
+Time: 44 Car #26 arrives west-bound - queue length: 1
+Time: 44 Scheduled Event Type: West-Bound Arrival Time: 54
+
+Handling Event Type: Light Change to NS Green Time: 44
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #23 advances east-bound
+  Next east-bound car will NOT advance on yellow
+  Next west-bound car will advance on yellow
+  Car #26 advances west-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 1 Remaining queue: 1
+West-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 44 Scheduled Event Type: Light Change to NS Yellow Time: 61
+
+Handling Event Type: East-Bound Arrival Time: 44
+Time: 44 Car #27 arrives east-bound - queue length: 2
+Time: 44 Scheduled Event Type: East-Bound Arrival Time: 47
+
+Handling Event Type: South-Bound Arrival Time: 46
+Time: 46 Car #28 arrives south-bound - queue length: 2
+Time: 46 Scheduled Event Type: South-Bound Arrival Time: 58
+
+Handling Event Type: East-Bound Arrival Time: 47
+Time: 47 Car #29 arrives east-bound - queue length: 3
+Time: 47 Scheduled Event Type: East-Bound Arrival Time: 49
+
+Handling Event Type: North-Bound Arrival Time: 49
+Time: 49 Car #30 arrives north-bound - queue length: 3
+Time: 49 Scheduled Event Type: North-Bound Arrival Time: 56
+
+Handling Event Type: East-Bound Arrival Time: 49
+Time: 49 Car #31 arrives east-bound - queue length: 4
+Time: 49 Scheduled Event Type: East-Bound Arrival Time: 51
+
+Handling Event Type: East-Bound Arrival Time: 51
+Time: 51 Car #32 arrives east-bound - queue length: 5
+Time: 51 Scheduled Event Type: East-Bound Arrival Time: 54
+
+Handling Event Type: West-Bound Arrival Time: 54
+Time: 54 Car #33 arrives west-bound - queue length: 1
+Time: 54 Scheduled Event Type: West-Bound Arrival Time: 74
+
+Handling Event Type: East-Bound Arrival Time: 54
+Time: 54 Car #34 arrives east-bound - queue length: 6
+Time: 54 Scheduled Event Type: East-Bound Arrival Time: 57
+
+Handling Event Type: North-Bound Arrival Time: 56
+Time: 56 Car #35 arrives north-bound - queue length: 4
+Time: 56 Scheduled Event Type: North-Bound Arrival Time: 63
+
+Handling Event Type: East-Bound Arrival Time: 57
+Time: 57 Car #36 arrives east-bound - queue length: 7
+Time: 57 Scheduled Event Type: East-Bound Arrival Time: 59
+
+Handling Event Type: South-Bound Arrival Time: 58
+Time: 58 Car #37 arrives south-bound - queue length: 3
+Time: 58 Scheduled Event Type: South-Bound Arrival Time: 68
+
+Handling Event Type: East-Bound Arrival Time: 59
+Time: 59 Car #38 arrives east-bound - queue length: 8
+Time: 59 Scheduled Event Type: East-Bound Arrival Time: 63
+
+Handling Event Type: Light Change to NS Yellow Time: 61
+Advancing cars on north-south green
+  Car #20 advances north-bound
+  Car #24 advances north-bound
+  Car #30 advances north-bound
+  Car #35 advances north-bound
+  Car #19 advances south-bound
+  Car #28 advances south-bound
+  Car #37 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 61 Scheduled Event Type: Light Change to EW Green Time: 64
+
+Handling Event Type: North-Bound Arrival Time: 63
+Time: 63 Car #39 arrives north-bound - queue length: 1
+Time: 63 Scheduled Event Type: North-Bound Arrival Time: 70
+
+Handling Event Type: East-Bound Arrival Time: 63
+Time: 63 Car #40 arrives east-bound - queue length: 9
+Time: 63 Scheduled Event Type: East-Bound Arrival Time: 66
+
+Handling Event Type: Light Change to EW Green Time: 64
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #39 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 64 Scheduled Event Type: Light Change to EW Yellow Time: 74
+
+Handling Event Type: East-Bound Arrival Time: 66
+Time: 66 Car #41 arrives east-bound - queue length: 10
+Time: 66 Scheduled Event Type: East-Bound Arrival Time: 68
+
+Handling Event Type: South-Bound Arrival Time: 68
+Time: 68 Car #42 arrives south-bound - queue length: 1
+Time: 68 Scheduled Event Type: South-Bound Arrival Time: 79
+
+Handling Event Type: East-Bound Arrival Time: 68
+Time: 68 Car #43 arrives east-bound - queue length: 11
+Time: 68 Scheduled Event Type: East-Bound Arrival Time: 72
+
+Handling Event Type: North-Bound Arrival Time: 70
+Time: 70 Car #44 arrives north-bound - queue length: 1
+Time: 70 Scheduled Event Type: North-Bound Arrival Time: 77
+
+Handling Event Type: East-Bound Arrival Time: 72
+Time: 72 Car #45 arrives east-bound - queue length: 12
+Time: 72 Scheduled Event Type: East-Bound Arrival Time: 76
+
+Handling Event Type: West-Bound Arrival Time: 74
+Time: 74 Car #46 arrives west-bound - queue length: 2
+Time: 74 Scheduled Event Type: West-Bound Arrival Time: 89
+
+Handling Event Type: Light Change to EW Yellow Time: 74
+Advancing cars on east-west green
+  Car #25 advances east-bound
+  Car #27 advances east-bound
+  Car #29 advances east-bound
+  Car #31 advances east-bound
+  Car #32 advances east-bound
+  Car #34 advances east-bound
+  Car #36 advances east-bound
+  Car #38 advances east-bound
+  Car #40 advances east-bound
+  Car #41 advances east-bound
+  Car #33 advances west-bound
+  Car #46 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 2
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 74 Scheduled Event Type: Light Change to NS Green Time: 76
+
+Handling Event Type: East-Bound Arrival Time: 76
+Time: 76 Car #47 arrives east-bound - queue length: 3
+Time: 76 Scheduled Event Type: East-Bound Arrival Time: 79
+
+Handling Event Type: Light Change to NS Green Time: 76
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 3
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 76 Scheduled Event Type: Light Change to NS Yellow Time: 93
+
+Handling Event Type: North-Bound Arrival Time: 77
+Time: 77 Car #48 arrives north-bound - queue length: 2
+Time: 77 Scheduled Event Type: North-Bound Arrival Time: 84
+
+Handling Event Type: South-Bound Arrival Time: 79
+Time: 79 Car #49 arrives south-bound - queue length: 2
+Time: 79 Scheduled Event Type: South-Bound Arrival Time: 89
+
+Handling Event Type: East-Bound Arrival Time: 79
+Time: 79 Car #50 arrives east-bound - queue length: 4
+Time: 79 Scheduled Event Type: East-Bound Arrival Time: 80
+
+Handling Event Type: East-Bound Arrival Time: 80
+Time: 80 Car #51 arrives east-bound - queue length: 5
+Time: 80 Scheduled Event Type: East-Bound Arrival Time: 81
+
+Handling Event Type: East-Bound Arrival Time: 81
+Time: 81 Car #52 arrives east-bound - queue length: 6
+Time: 81 Scheduled Event Type: East-Bound Arrival Time: 84
+
+Handling Event Type: North-Bound Arrival Time: 84
+Time: 84 Car #53 arrives north-bound - queue length: 3
+Time: 84 Scheduled Event Type: North-Bound Arrival Time: 91
+
+Handling Event Type: East-Bound Arrival Time: 84
+Time: 84 Car #54 arrives east-bound - queue length: 7
+Time: 84 Scheduled Event Type: East-Bound Arrival Time: 87
+
+Handling Event Type: East-Bound Arrival Time: 87
+Time: 87 Car #55 arrives east-bound - queue length: 8
+Time: 87 Scheduled Event Type: East-Bound Arrival Time: 90
+
+Handling Event Type: West-Bound Arrival Time: 89
+Time: 89 Car #56 arrives west-bound - queue length: 1
+Time: 89 Scheduled Event Type: West-Bound Arrival Time: 105
+
+Handling Event Type: South-Bound Arrival Time: 89
+Time: 89 Car #57 arrives south-bound - queue length: 3
+Time: 89 Scheduled Event Type: South-Bound Arrival Time: 96
+
+Handling Event Type: East-Bound Arrival Time: 90
+Time: 90 Car #58 arrives east-bound - queue length: 9
+Time: 90 Scheduled Event Type: East-Bound Arrival Time: 93
+
+Handling Event Type: North-Bound Arrival Time: 91
+Time: 91 Car #59 arrives north-bound - queue length: 4
+Time: 91 Scheduled Event Type: North-Bound Arrival Time: 98
+
+Handling Event Type: Light Change to NS Yellow Time: 93
+Advancing cars on north-south green
+  Car #44 advances north-bound
+  Car #48 advances north-bound
+  Car #53 advances north-bound
+  Car #59 advances north-bound
+  Car #42 advances south-bound
+  Car #49 advances south-bound
+  Car #57 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 93 Scheduled Event Type: Light Change to EW Green Time: 96
+
+Handling Event Type: East-Bound Arrival Time: 93
+Time: 93 Car #60 arrives east-bound - queue length: 10
+Time: 93 Scheduled Event Type: East-Bound Arrival Time: 96
+
+Handling Event Type: South-Bound Arrival Time: 96
+Time: 96 Car #61 arrives south-bound - queue length: 1
+Time: 96 Scheduled Event Type: South-Bound Arrival Time: 110
+
+Handling Event Type: Light Change to EW Green Time: 96
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  Next south-bound car will advance on yellow
+  Car #61 advances south-bound
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 96 Scheduled Event Type: Light Change to EW Yellow Time: 106
+
+Handling Event Type: East-Bound Arrival Time: 96
+Time: 96 Car #62 arrives east-bound - queue length: 11
+Time: 96 Scheduled Event Type: East-Bound Arrival Time: 99
+
+Handling Event Type: North-Bound Arrival Time: 98
+Time: 98 Car #63 arrives north-bound - queue length: 1
+Time: 98 Scheduled Event Type: North-Bound Arrival Time: 105
+
+Handling Event Type: East-Bound Arrival Time: 99
+Time: 99 Car #64 arrives east-bound - queue length: 12
+Time: 99 Scheduled Event Type: East-Bound Arrival Time: 101
+
+Handling Event Type: East-Bound Arrival Time: 101
+Time: 101 Car #65 arrives east-bound - queue length: 13
+Time: 101 Scheduled Event Type: East-Bound Arrival Time: 104
+
+Handling Event Type: East-Bound Arrival Time: 104
+Time: 104 Car #66 arrives east-bound - queue length: 14
+Time: 104 Scheduled Event Type: East-Bound Arrival Time: 107
+
+Handling Event Type: West-Bound Arrival Time: 105
+Time: 105 Car #67 arrives west-bound - queue length: 2
+Time: 105 Scheduled Event Type: West-Bound Arrival Time: 121
+
+Handling Event Type: North-Bound Arrival Time: 105
+Time: 105 Car #68 arrives north-bound - queue length: 2
+Time: 105 Scheduled Event Type: North-Bound Arrival Time: 112
+
+Handling Event Type: Light Change to EW Yellow Time: 106
+Advancing cars on east-west green
+  Car #43 advances east-bound
+  Car #45 advances east-bound
+  Car #47 advances east-bound
+  Car #50 advances east-bound
+  Car #51 advances east-bound
+  Car #52 advances east-bound
+  Car #54 advances east-bound
+  Car #55 advances east-bound
+  Car #58 advances east-bound
+  Car #60 advances east-bound
+  Car #56 advances west-bound
+  Car #67 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 4
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 106 Scheduled Event Type: Light Change to NS Green Time: 108
+
+Handling Event Type: East-Bound Arrival Time: 107
+Time: 107 Car #69 arrives east-bound - queue length: 5
+Time: 107 Scheduled Event Type: East-Bound Arrival Time: 111
+
+Handling Event Type: Light Change to NS Green Time: 108
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #62 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #64 advances east-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 3
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 108 Scheduled Event Type: Light Change to NS Yellow Time: 125
+
+Handling Event Type: South-Bound Arrival Time: 110
+Time: 110 Car #70 arrives south-bound - queue length: 1
+Time: 110 Scheduled Event Type: South-Bound Arrival Time: 123
+
+Handling Event Type: East-Bound Arrival Time: 111
+Time: 111 Car #71 arrives east-bound - queue length: 4
+Time: 111 Scheduled Event Type: East-Bound Arrival Time: 114
+
+Handling Event Type: North-Bound Arrival Time: 112
+Time: 112 Car #72 arrives north-bound - queue length: 3
+Time: 112 Scheduled Event Type: North-Bound Arrival Time: 119
+
+Handling Event Type: East-Bound Arrival Time: 114
+Time: 114 Car #73 arrives east-bound - queue length: 5
+Time: 114 Scheduled Event Type: East-Bound Arrival Time: 119
+
+Handling Event Type: North-Bound Arrival Time: 119
+Time: 119 Car #74 arrives north-bound - queue length: 4
+Time: 119 Scheduled Event Type: North-Bound Arrival Time: 126
+
+Handling Event Type: East-Bound Arrival Time: 119
+Time: 119 Car #75 arrives east-bound - queue length: 6
+Time: 119 Scheduled Event Type: East-Bound Arrival Time: 121
+
+Handling Event Type: West-Bound Arrival Time: 121
+Time: 121 Car #76 arrives west-bound - queue length: 1
+Time: 121 Scheduled Event Type: West-Bound Arrival Time: 132
+
+Handling Event Type: East-Bound Arrival Time: 121
+Time: 121 Car #77 arrives east-bound - queue length: 7
+Time: 121 Scheduled Event Type: East-Bound Arrival Time: 124
+
+Handling Event Type: South-Bound Arrival Time: 123
+Time: 123 Car #78 arrives south-bound - queue length: 2
+Time: 123 Scheduled Event Type: South-Bound Arrival Time: 144
+
+Handling Event Type: East-Bound Arrival Time: 124
+Time: 124 Car #79 arrives east-bound - queue length: 8
+Time: 124 Scheduled Event Type: East-Bound Arrival Time: 126
+
+Handling Event Type: Light Change to NS Yellow Time: 125
+Advancing cars on north-south green
+  Car #63 advances north-bound
+  Car #68 advances north-bound
+  Car #72 advances north-bound
+  Car #74 advances north-bound
+  Car #70 advances south-bound
+  Car #78 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 125 Scheduled Event Type: Light Change to EW Green Time: 128
+
+Handling Event Type: North-Bound Arrival Time: 126
+Time: 126 Car #80 arrives north-bound - queue length: 1
+Time: 126 Scheduled Event Type: North-Bound Arrival Time: 133
+
+Handling Event Type: East-Bound Arrival Time: 126
+Time: 126 Car #81 arrives east-bound - queue length: 9
+Time: 126 Scheduled Event Type: East-Bound Arrival Time: 129
+
+Handling Event Type: Light Change to EW Green Time: 128
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #80 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 128 Scheduled Event Type: Light Change to EW Yellow Time: 138
+
+Handling Event Type: East-Bound Arrival Time: 129
+Time: 129 Car #82 arrives east-bound - queue length: 10
+Time: 129 Scheduled Event Type: East-Bound Arrival Time: 133
+
+Handling Event Type: West-Bound Arrival Time: 132
+Time: 132 Car #83 arrives west-bound - queue length: 2
+Time: 132 Scheduled Event Type: West-Bound Arrival Time: 149
+
+Handling Event Type: North-Bound Arrival Time: 133
+Time: 133 Car #84 arrives north-bound - queue length: 1
+Time: 133 Scheduled Event Type: North-Bound Arrival Time: 140
+
+Handling Event Type: East-Bound Arrival Time: 133
+Time: 133 Car #85 arrives east-bound - queue length: 11
+Time: 133 Scheduled Event Type: East-Bound Arrival Time: 138
+
+Handling Event Type: Light Change to EW Yellow Time: 138
+Advancing cars on east-west green
+  Car #65 advances east-bound
+  Car #66 advances east-bound
+  Car #69 advances east-bound
+  Car #71 advances east-bound
+  Car #73 advances east-bound
+  Car #75 advances east-bound
+  Car #77 advances east-bound
+  Car #79 advances east-bound
+  Car #81 advances east-bound
+  Car #82 advances east-bound
+  Car #76 advances west-bound
+  Car #83 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 1
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 138 Scheduled Event Type: Light Change to NS Green Time: 140
+
+Handling Event Type: East-Bound Arrival Time: 138
+Time: 138 Car #86 arrives east-bound - queue length: 2
+Time: 138 Scheduled Event Type: East-Bound Arrival Time: 140
+
+Handling Event Type: North-Bound Arrival Time: 140
+Time: 140 Car #87 arrives north-bound - queue length: 2
+Time: 140 Scheduled Event Type: North-Bound Arrival Time: 147
+
+Handling Event Type: Light Change to NS Green Time: 140
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #85 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #86 advances east-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 0
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 140 Scheduled Event Type: Light Change to NS Yellow Time: 157
+
+Handling Event Type: East-Bound Arrival Time: 140
+Time: 140 Car #88 arrives east-bound - queue length: 1
+Time: 140 Scheduled Event Type: East-Bound Arrival Time: 143
+
+Handling Event Type: East-Bound Arrival Time: 143
+Time: 143 Car #89 arrives east-bound - queue length: 2
+Time: 143 Scheduled Event Type: East-Bound Arrival Time: 143
+
+Handling Event Type: East-Bound Arrival Time: 143
+Time: 143 Car #90 arrives east-bound - queue length: 3
+Time: 143 Scheduled Event Type: East-Bound Arrival Time: 144
+
+Handling Event Type: South-Bound Arrival Time: 144
+Time: 144 Car #91 arrives south-bound - queue length: 1
+Time: 144 Scheduled Event Type: South-Bound Arrival Time: 149
+
+Handling Event Type: East-Bound Arrival Time: 144
+Time: 144 Car #92 arrives east-bound - queue length: 4
+Time: 144 Scheduled Event Type: East-Bound Arrival Time: 146
+
+Handling Event Type: East-Bound Arrival Time: 146
+Time: 146 Car #93 arrives east-bound - queue length: 5
+Time: 146 Scheduled Event Type: East-Bound Arrival Time: 147
+
+Handling Event Type: North-Bound Arrival Time: 147
+Time: 147 Car #94 arrives north-bound - queue length: 3
+Time: 147 Scheduled Event Type: North-Bound Arrival Time: 154
+
+Handling Event Type: East-Bound Arrival Time: 147
+Time: 147 Car #95 arrives east-bound - queue length: 6
+Time: 147 Scheduled Event Type: East-Bound Arrival Time: 151
+
+Handling Event Type: West-Bound Arrival Time: 149
+Time: 149 Car #96 arrives west-bound - queue length: 1
+Time: 149 Scheduled Event Type: West-Bound Arrival Time: 166
+
+Handling Event Type: South-Bound Arrival Time: 149
+Time: 149 Car #97 arrives south-bound - queue length: 2
+Time: 149 Scheduled Event Type: South-Bound Arrival Time: 164
+
+Handling Event Type: East-Bound Arrival Time: 151
+Time: 151 Car #98 arrives east-bound - queue length: 7
+Time: 151 Scheduled Event Type: East-Bound Arrival Time: 152
+
+Handling Event Type: East-Bound Arrival Time: 152
+Time: 152 Car #99 arrives east-bound - queue length: 8
+Time: 152 Scheduled Event Type: East-Bound Arrival Time: 154
+
+Handling Event Type: North-Bound Arrival Time: 154
+Time: 154 Car #100 arrives north-bound - queue length: 4
+Time: 154 Scheduled Event Type: North-Bound Arrival Time: 161
+
+Handling Event Type: East-Bound Arrival Time: 154
+Time: 154 Car #101 arrives east-bound - queue length: 9
+Time: 154 Scheduled Event Type: East-Bound Arrival Time: 155
+
+Handling Event Type: East-Bound Arrival Time: 155
+Time: 155 Car #102 arrives east-bound - queue length: 10
+Time: 155 Scheduled Event Type: East-Bound Arrival Time: 156
+
+Handling Event Type: East-Bound Arrival Time: 156
+Time: 156 Car #103 arrives east-bound - queue length: 11
+Time: 156 Scheduled Event Type: East-Bound Arrival Time: 159
+
+Handling Event Type: Light Change to NS Yellow Time: 157
+Advancing cars on north-south green
+  Car #84 advances north-bound
+  Car #87 advances north-bound
+  Car #94 advances north-bound
+  Car #100 advances north-bound
+  Car #91 advances south-bound
+  Car #97 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 157 Scheduled Event Type: Light Change to EW Green Time: 160
+
+Handling Event Type: East-Bound Arrival Time: 159
+Time: 159 Car #104 arrives east-bound - queue length: 12
+Time: 159 Scheduled Event Type: East-Bound Arrival Time: 162
+
+Handling Event Type: Light Change to EW Green Time: 160
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 160 Scheduled Event Type: Light Change to EW Yellow Time: 170
+
+Handling Event Type: North-Bound Arrival Time: 161
+Time: 161 Car #105 arrives north-bound - queue length: 1
+Time: 161 Scheduled Event Type: North-Bound Arrival Time: 168
+
+Handling Event Type: East-Bound Arrival Time: 162
+Time: 162 Car #106 arrives east-bound - queue length: 13
+Time: 162 Scheduled Event Type: East-Bound Arrival Time: 164
+
+Handling Event Type: South-Bound Arrival Time: 164
+Time: 164 Car #107 arrives south-bound - queue length: 1
+Time: 164 Scheduled Event Type: South-Bound Arrival Time: 178
+
+Handling Event Type: East-Bound Arrival Time: 164
+Time: 164 Car #108 arrives east-bound - queue length: 14
+Time: 164 Scheduled Event Type: East-Bound Arrival Time: 167
+
+Handling Event Type: West-Bound Arrival Time: 166
+Time: 166 Car #109 arrives west-bound - queue length: 2
+Time: 166 Scheduled Event Type: West-Bound Arrival Time: 180
+
+Handling Event Type: East-Bound Arrival Time: 167
+Time: 167 Car #110 arrives east-bound - queue length: 15
+Time: 167 Scheduled Event Type: East-Bound Arrival Time: 168
+
+Handling Event Type: North-Bound Arrival Time: 168
+Time: 168 Car #111 arrives north-bound - queue length: 2
+Time: 168 Scheduled Event Type: North-Bound Arrival Time: 175
+
+Handling Event Type: East-Bound Arrival Time: 168
+Time: 168 Car #112 arrives east-bound - queue length: 16
+Time: 168 Scheduled Event Type: East-Bound Arrival Time: 171
+
+Handling Event Type: Light Change to EW Yellow Time: 170
+Advancing cars on east-west green
+  Car #88 advances east-bound
+  Car #89 advances east-bound
+  Car #90 advances east-bound
+  Car #92 advances east-bound
+  Car #93 advances east-bound
+  Car #95 advances east-bound
+  Car #98 advances east-bound
+  Car #99 advances east-bound
+  Car #101 advances east-bound
+  Car #102 advances east-bound
+  Car #96 advances west-bound
+  Car #109 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 6
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 170 Scheduled Event Type: Light Change to NS Green Time: 172
+
+Handling Event Type: East-Bound Arrival Time: 171
+Time: 171 Car #113 arrives east-bound - queue length: 7
+Time: 171 Scheduled Event Type: East-Bound Arrival Time: 173
+
+Handling Event Type: Light Change to NS Green Time: 172
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 7
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 172 Scheduled Event Type: Light Change to NS Yellow Time: 189
+
+Handling Event Type: East-Bound Arrival Time: 173
+Time: 173 Car #114 arrives east-bound - queue length: 8
+Time: 173 Scheduled Event Type: East-Bound Arrival Time: 177
+
+Handling Event Type: North-Bound Arrival Time: 175
+Time: 175 Car #115 arrives north-bound - queue length: 3
+Time: 175 Scheduled Event Type: North-Bound Arrival Time: 182
+
+Handling Event Type: East-Bound Arrival Time: 177
+Time: 177 Car #116 arrives east-bound - queue length: 9
+Time: 177 Scheduled Event Type: East-Bound Arrival Time: 181
+
+Handling Event Type: South-Bound Arrival Time: 178
+Time: 178 Car #117 arrives south-bound - queue length: 2
+Time: 178 Scheduled Event Type: South-Bound Arrival Time: 184
+
+Handling Event Type: West-Bound Arrival Time: 180
+Time: 180 Car #118 arrives west-bound - queue length: 1
+Time: 180 Scheduled Event Type: West-Bound Arrival Time: 191
+
+Handling Event Type: East-Bound Arrival Time: 181
+Time: 181 Car #119 arrives east-bound - queue length: 10
+Time: 181 Scheduled Event Type: East-Bound Arrival Time: 182
+
+Handling Event Type: North-Bound Arrival Time: 182
+Time: 182 Car #120 arrives north-bound - queue length: 4
+Time: 182 Scheduled Event Type: North-Bound Arrival Time: 189
+
+Handling Event Type: East-Bound Arrival Time: 182
+Time: 182 Car #121 arrives east-bound - queue length: 11
+Time: 182 Scheduled Event Type: East-Bound Arrival Time: 187
+
+Handling Event Type: South-Bound Arrival Time: 184
+Time: 184 Car #122 arrives south-bound - queue length: 3
+Time: 184 Scheduled Event Type: South-Bound Arrival Time: 197
+
+Handling Event Type: East-Bound Arrival Time: 187
+Time: 187 Car #123 arrives east-bound - queue length: 12
+Time: 187 Scheduled Event Type: East-Bound Arrival Time: 190
+
+Handling Event Type: Light Change to NS Yellow Time: 189
+Advancing cars on north-south green
+  Car #105 advances north-bound
+  Car #111 advances north-bound
+  Car #115 advances north-bound
+  Car #120 advances north-bound
+  Car #107 advances south-bound
+  Car #117 advances south-bound
+  Car #122 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 189 Scheduled Event Type: Light Change to EW Green Time: 192
+
+Handling Event Type: North-Bound Arrival Time: 189
+Time: 189 Car #124 arrives north-bound - queue length: 1
+Time: 189 Scheduled Event Type: North-Bound Arrival Time: 196
+
+Handling Event Type: East-Bound Arrival Time: 190
+Time: 190 Car #125 arrives east-bound - queue length: 13
+Time: 190 Scheduled Event Type: East-Bound Arrival Time: 195
+
+Handling Event Type: West-Bound Arrival Time: 191
+Time: 191 Car #126 arrives west-bound - queue length: 2
+Time: 191 Scheduled Event Type: West-Bound Arrival Time: 204
+
+Handling Event Type: Light Change to EW Green Time: 192
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #124 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 192 Scheduled Event Type: Light Change to EW Yellow Time: 202
+
+Handling Event Type: East-Bound Arrival Time: 195
+Time: 195 Car #127 arrives east-bound - queue length: 14
+Time: 195 Scheduled Event Type: East-Bound Arrival Time: 197
+
+Handling Event Type: North-Bound Arrival Time: 196
+Time: 196 Car #128 arrives north-bound - queue length: 1
+Time: 196 Scheduled Event Type: North-Bound Arrival Time: 203
+
+Handling Event Type: South-Bound Arrival Time: 197
+Time: 197 Car #129 arrives south-bound - queue length: 1
+Time: 197 Scheduled Event Type: South-Bound Arrival Time: 209
+
+Handling Event Type: East-Bound Arrival Time: 197
+Time: 197 Car #130 arrives east-bound - queue length: 15
+Time: 197 Scheduled Event Type: East-Bound Arrival Time: 199
+
+Handling Event Type: East-Bound Arrival Time: 199
+Time: 199 Car #131 arrives east-bound - queue length: 16
+Time: 199 Scheduled Event Type: East-Bound Arrival Time: 202
+
+Handling Event Type: Light Change to EW Yellow Time: 202
+Advancing cars on east-west green
+  Car #103 advances east-bound
+  Car #104 advances east-bound
+  Car #106 advances east-bound
+  Car #108 advances east-bound
+  Car #110 advances east-bound
+  Car #112 advances east-bound
+  Car #113 advances east-bound
+  Car #114 advances east-bound
+  Car #116 advances east-bound
+  Car #119 advances east-bound
+  Car #118 advances west-bound
+  Car #126 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 6
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 202 Scheduled Event Type: Light Change to NS Green Time: 204
+
+Handling Event Type: East-Bound Arrival Time: 202
+Time: 202 Car #132 arrives east-bound - queue length: 7
+Time: 202 Scheduled Event Type: East-Bound Arrival Time: 204
+
+Handling Event Type: North-Bound Arrival Time: 203
+Time: 203 Car #133 arrives north-bound - queue length: 2
+Time: 203 Scheduled Event Type: North-Bound Arrival Time: 210
+
+Handling Event Type: West-Bound Arrival Time: 204
+Time: 204 Car #134 arrives west-bound - queue length: 1
+Time: 204 Scheduled Event Type: West-Bound Arrival Time: 222
+
+Handling Event Type: Light Change to NS Green Time: 204
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #121 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #123 advances east-bound
+  Next west-bound car will advance on yellow
+  Car #134 advances west-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 5
+West-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 204 Scheduled Event Type: Light Change to NS Yellow Time: 221
+
+Handling Event Type: East-Bound Arrival Time: 204
+Time: 204 Car #135 arrives east-bound - queue length: 6
+Time: 204 Scheduled Event Type: East-Bound Arrival Time: 206
+
+Handling Event Type: East-Bound Arrival Time: 206
+Time: 206 Car #136 arrives east-bound - queue length: 7
+Time: 206 Scheduled Event Type: East-Bound Arrival Time: 209
+
+Handling Event Type: South-Bound Arrival Time: 209
+Time: 209 Car #137 arrives south-bound - queue length: 2
+Time: 209 Scheduled Event Type: South-Bound Arrival Time: 225
+
+Handling Event Type: East-Bound Arrival Time: 209
+Time: 209 Car #138 arrives east-bound - queue length: 8
+Time: 209 Scheduled Event Type: East-Bound Arrival Time: 212
+
+Handling Event Type: North-Bound Arrival Time: 210
+Time: 210 Car #139 arrives north-bound - queue length: 3
+Time: 210 Scheduled Event Type: North-Bound Arrival Time: 217
+
+Handling Event Type: East-Bound Arrival Time: 212
+Time: 212 Car #140 arrives east-bound - queue length: 9
+Time: 212 Scheduled Event Type: East-Bound Arrival Time: 214
+
+Handling Event Type: East-Bound Arrival Time: 214
+Time: 214 Car #141 arrives east-bound - queue length: 10
+Time: 214 Scheduled Event Type: East-Bound Arrival Time: 217
+
+Handling Event Type: North-Bound Arrival Time: 217
+Time: 217 Car #142 arrives north-bound - queue length: 4
+Time: 217 Scheduled Event Type: North-Bound Arrival Time: 224
+
+Handling Event Type: East-Bound Arrival Time: 217
+Time: 217 Car #143 arrives east-bound - queue length: 11
+Time: 217 Scheduled Event Type: East-Bound Arrival Time: 220
+
+Handling Event Type: East-Bound Arrival Time: 220
+Time: 220 Car #144 arrives east-bound - queue length: 12
+Time: 220 Scheduled Event Type: East-Bound Arrival Time: 224
+
+Handling Event Type: Light Change to NS Yellow Time: 221
+Advancing cars on north-south green
+  Car #128 advances north-bound
+  Car #133 advances north-bound
+  Car #139 advances north-bound
+  Car #142 advances north-bound
+  Car #129 advances south-bound
+  Car #137 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 221 Scheduled Event Type: Light Change to EW Green Time: 224
+
+Handling Event Type: West-Bound Arrival Time: 222
+Time: 222 Car #145 arrives west-bound - queue length: 1
+Time: 222 Scheduled Event Type: West-Bound Arrival Time: 236
+
+Handling Event Type: North-Bound Arrival Time: 224
+Time: 224 Car #146 arrives north-bound - queue length: 1
+Time: 224 Scheduled Event Type: North-Bound Arrival Time: 231
+
+Handling Event Type: East-Bound Arrival Time: 224
+Time: 224 Car #147 arrives east-bound - queue length: 13
+Time: 224 Scheduled Event Type: East-Bound Arrival Time: 228
+
+Handling Event Type: Light Change to EW Green Time: 224
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #146 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 224 Scheduled Event Type: Light Change to EW Yellow Time: 234
+
+Handling Event Type: South-Bound Arrival Time: 225
+Time: 225 Car #148 arrives south-bound - queue length: 1
+Time: 225 Scheduled Event Type: South-Bound Arrival Time: 242
+
+Handling Event Type: East-Bound Arrival Time: 228
+Time: 228 Car #149 arrives east-bound - queue length: 14
+Time: 228 Scheduled Event Type: East-Bound Arrival Time: 231
+
+Handling Event Type: North-Bound Arrival Time: 231
+Time: 231 Car #150 arrives north-bound - queue length: 1
+Time: 231 Scheduled Event Type: North-Bound Arrival Time: 238
+
+Handling Event Type: East-Bound Arrival Time: 231
+Time: 231 Car #151 arrives east-bound - queue length: 15
+Time: 231 Scheduled Event Type: East-Bound Arrival Time: 234
+
+Handling Event Type: Light Change to EW Yellow Time: 234
+Advancing cars on east-west green
+  Car #125 advances east-bound
+  Car #127 advances east-bound
+  Car #130 advances east-bound
+  Car #131 advances east-bound
+  Car #132 advances east-bound
+  Car #135 advances east-bound
+  Car #136 advances east-bound
+  Car #138 advances east-bound
+  Car #140 advances east-bound
+  Car #141 advances east-bound
+  Car #145 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 5
+West-bound cars advanced on green: 1 Remaining queue: 0
+Time: 234 Scheduled Event Type: Light Change to NS Green Time: 236
+
+Handling Event Type: East-Bound Arrival Time: 234
+Time: 234 Car #152 arrives east-bound - queue length: 6
+Time: 234 Scheduled Event Type: East-Bound Arrival Time: 234
+
+Handling Event Type: East-Bound Arrival Time: 234
+Time: 234 Car #153 arrives east-bound - queue length: 7
+Time: 234 Scheduled Event Type: East-Bound Arrival Time: 237
+
+Handling Event Type: West-Bound Arrival Time: 236
+Time: 236 Car #154 arrives west-bound - queue length: 1
+Time: 236 Scheduled Event Type: West-Bound Arrival Time: 251
+
+Handling Event Type: Light Change to NS Green Time: 236
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #143 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #144 advances east-bound
+  Next west-bound car will NOT advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 5
+West-bound cars advanced on yellow: 0 Remaining queue: 1
+Time: 236 Scheduled Event Type: Light Change to NS Yellow Time: 253
+
+Handling Event Type: East-Bound Arrival Time: 237
+Time: 237 Car #155 arrives east-bound - queue length: 6
+Time: 237 Scheduled Event Type: East-Bound Arrival Time: 238
+
+Handling Event Type: North-Bound Arrival Time: 238
+Time: 238 Car #156 arrives north-bound - queue length: 2
+Time: 238 Scheduled Event Type: North-Bound Arrival Time: 245
+
+Handling Event Type: East-Bound Arrival Time: 238
+Time: 238 Car #157 arrives east-bound - queue length: 7
+Time: 238 Scheduled Event Type: East-Bound Arrival Time: 241
+
+Handling Event Type: East-Bound Arrival Time: 241
+Time: 241 Car #158 arrives east-bound - queue length: 8
+Time: 241 Scheduled Event Type: East-Bound Arrival Time: 243
+
+Handling Event Type: South-Bound Arrival Time: 242
+Time: 242 Car #159 arrives south-bound - queue length: 2
+Time: 242 Scheduled Event Type: South-Bound Arrival Time: 257
+
+Handling Event Type: East-Bound Arrival Time: 243
+Time: 243 Car #160 arrives east-bound - queue length: 9
+Time: 243 Scheduled Event Type: East-Bound Arrival Time: 246
+
+Handling Event Type: North-Bound Arrival Time: 245
+Time: 245 Car #161 arrives north-bound - queue length: 3
+Time: 245 Scheduled Event Type: North-Bound Arrival Time: 252
+
+Handling Event Type: East-Bound Arrival Time: 246
+Time: 246 Car #162 arrives east-bound - queue length: 10
+Time: 246 Scheduled Event Type: East-Bound Arrival Time: 247
+
+Handling Event Type: East-Bound Arrival Time: 247
+Time: 247 Car #163 arrives east-bound - queue length: 11
+Time: 247 Scheduled Event Type: East-Bound Arrival Time: 250
+
+Handling Event Type: East-Bound Arrival Time: 250
+Time: 250 Car #164 arrives east-bound - queue length: 12
+Time: 250 Scheduled Event Type: East-Bound Arrival Time: 254
+
+Handling Event Type: West-Bound Arrival Time: 251
+Time: 251 Car #165 arrives west-bound - queue length: 2
+Time: 251 Scheduled Event Type: West-Bound Arrival Time: 263
+
+Handling Event Type: North-Bound Arrival Time: 252
+Time: 252 Car #166 arrives north-bound - queue length: 4
+Time: 252 Scheduled Event Type: North-Bound Arrival Time: 259
+
+Handling Event Type: Light Change to NS Yellow Time: 253
+Advancing cars on north-south green
+  Car #150 advances north-bound
+  Car #156 advances north-bound
+  Car #161 advances north-bound
+  Car #166 advances north-bound
+  Car #148 advances south-bound
+  Car #159 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 253 Scheduled Event Type: Light Change to EW Green Time: 256
+
+Handling Event Type: East-Bound Arrival Time: 254
+Time: 254 Car #167 arrives east-bound - queue length: 13
+Time: 254 Scheduled Event Type: East-Bound Arrival Time: 256
+
+Handling Event Type: Light Change to EW Green Time: 256
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 256 Scheduled Event Type: Light Change to EW Yellow Time: 266
+
+Handling Event Type: East-Bound Arrival Time: 256
+Time: 256 Car #168 arrives east-bound - queue length: 14
+Time: 256 Scheduled Event Type: East-Bound Arrival Time: 258
+
+Handling Event Type: South-Bound Arrival Time: 257
+Time: 257 Car #169 arrives south-bound - queue length: 1
+Time: 257 Scheduled Event Type: South-Bound Arrival Time: 269
+
+Handling Event Type: East-Bound Arrival Time: 258
+Time: 258 Car #170 arrives east-bound - queue length: 15
+Time: 258 Scheduled Event Type: East-Bound Arrival Time: 260
+
+Handling Event Type: North-Bound Arrival Time: 259
+Time: 259 Car #171 arrives north-bound - queue length: 1
+Time: 259 Scheduled Event Type: North-Bound Arrival Time: 266
+
+Handling Event Type: East-Bound Arrival Time: 260
+Time: 260 Car #172 arrives east-bound - queue length: 16
+Time: 260 Scheduled Event Type: East-Bound Arrival Time: 262
+
+Handling Event Type: East-Bound Arrival Time: 262
+Time: 262 Car #173 arrives east-bound - queue length: 17
+Time: 262 Scheduled Event Type: East-Bound Arrival Time: 264
+
+Handling Event Type: West-Bound Arrival Time: 263
+Time: 263 Car #174 arrives west-bound - queue length: 3
+Time: 263 Scheduled Event Type: West-Bound Arrival Time: 278
+
+Handling Event Type: East-Bound Arrival Time: 264
+Time: 264 Car #175 arrives east-bound - queue length: 18
+Time: 264 Scheduled Event Type: East-Bound Arrival Time: 267
+
+Handling Event Type: Light Change to EW Yellow Time: 266
+Advancing cars on east-west green
+  Car #147 advances east-bound
+  Car #149 advances east-bound
+  Car #151 advances east-bound
+  Car #152 advances east-bound
+  Car #153 advances east-bound
+  Car #155 advances east-bound
+  Car #157 advances east-bound
+  Car #158 advances east-bound
+  Car #160 advances east-bound
+  Car #162 advances east-bound
+  Car #154 advances west-bound
+  Car #165 advances west-bound
+  Car #174 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 8
+West-bound cars advanced on green: 3 Remaining queue: 0
+Time: 266 Scheduled Event Type: Light Change to NS Green Time: 268
+
+Handling Event Type: North-Bound Arrival Time: 266
+Time: 266 Car #176 arrives north-bound - queue length: 2
+Time: 266 Scheduled Event Type: North-Bound Arrival Time: 273
+
+Handling Event Type: East-Bound Arrival Time: 267
+Time: 267 Car #177 arrives east-bound - queue length: 9
+Time: 267 Scheduled Event Type: East-Bound Arrival Time: 269
+
+Handling Event Type: Light Change to NS Green Time: 268
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 9
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 268 Scheduled Event Type: Light Change to NS Yellow Time: 285
+
+Handling Event Type: South-Bound Arrival Time: 269
+Time: 269 Car #178 arrives south-bound - queue length: 2
+Time: 269 Scheduled Event Type: South-Bound Arrival Time: 292
+
+Handling Event Type: East-Bound Arrival Time: 269
+Time: 269 Car #179 arrives east-bound - queue length: 10
+Time: 269 Scheduled Event Type: East-Bound Arrival Time: 271
+
+Handling Event Type: East-Bound Arrival Time: 271
+Time: 271 Car #180 arrives east-bound - queue length: 11
+Time: 271 Scheduled Event Type: East-Bound Arrival Time: 273
+
+Handling Event Type: North-Bound Arrival Time: 273
+Time: 273 Car #181 arrives north-bound - queue length: 3
+Time: 273 Scheduled Event Type: North-Bound Arrival Time: 280
+
+Handling Event Type: East-Bound Arrival Time: 273
+Time: 273 Car #182 arrives east-bound - queue length: 12
+Time: 273 Scheduled Event Type: East-Bound Arrival Time: 275
+
+Handling Event Type: East-Bound Arrival Time: 275
+Time: 275 Car #183 arrives east-bound - queue length: 13
+Time: 275 Scheduled Event Type: East-Bound Arrival Time: 277
+
+Handling Event Type: East-Bound Arrival Time: 277
+Time: 277 Car #184 arrives east-bound - queue length: 14
+Time: 277 Scheduled Event Type: East-Bound Arrival Time: 280
+
+Handling Event Type: West-Bound Arrival Time: 278
+Time: 278 Car #185 arrives west-bound - queue length: 1
+Time: 278 Scheduled Event Type: West-Bound Arrival Time: 291
+
+Handling Event Type: North-Bound Arrival Time: 280
+Time: 280 Car #186 arrives north-bound - queue length: 4
+Time: 280 Scheduled Event Type: North-Bound Arrival Time: 287
+
+Handling Event Type: East-Bound Arrival Time: 280
+Time: 280 Car #187 arrives east-bound - queue length: 15
+Time: 280 Scheduled Event Type: East-Bound Arrival Time: 281
+
+Handling Event Type: East-Bound Arrival Time: 281
+Time: 281 Car #188 arrives east-bound - queue length: 16
+Time: 281 Scheduled Event Type: East-Bound Arrival Time: 284
+
+Handling Event Type: East-Bound Arrival Time: 284
+Time: 284 Car #189 arrives east-bound - queue length: 17
+Time: 284 Scheduled Event Type: East-Bound Arrival Time: 287
+
+Handling Event Type: Light Change to NS Yellow Time: 285
+Advancing cars on north-south green
+  Car #171 advances north-bound
+  Car #176 advances north-bound
+  Car #181 advances north-bound
+  Car #186 advances north-bound
+  Car #169 advances south-bound
+  Car #178 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 285 Scheduled Event Type: Light Change to EW Green Time: 288
+
+Handling Event Type: North-Bound Arrival Time: 287
+Time: 287 Car #190 arrives north-bound - queue length: 1
+Time: 287 Scheduled Event Type: North-Bound Arrival Time: 294
+
+Handling Event Type: East-Bound Arrival Time: 287
+Time: 287 Car #191 arrives east-bound - queue length: 18
+Time: 287 Scheduled Event Type: East-Bound Arrival Time: 288
+
+Handling Event Type: Light Change to EW Green Time: 288
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #190 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 288 Scheduled Event Type: Light Change to EW Yellow Time: 298
+
+Handling Event Type: East-Bound Arrival Time: 288
+Time: 288 Car #192 arrives east-bound - queue length: 19
+Time: 288 Scheduled Event Type: East-Bound Arrival Time: 290
+
+Handling Event Type: East-Bound Arrival Time: 290
+Time: 290 Car #193 arrives east-bound - queue length: 20
+Time: 290 Scheduled Event Type: East-Bound Arrival Time: 294
+
+Handling Event Type: West-Bound Arrival Time: 291
+Time: 291 Car #194 arrives west-bound - queue length: 2
+Time: 291 Scheduled Event Type: West-Bound Arrival Time: 313
+
+Handling Event Type: South-Bound Arrival Time: 292
+Time: 292 Car #195 arrives south-bound - queue length: 1
+Time: 292 Scheduled Event Type: South-Bound Arrival Time: 302
+
+Handling Event Type: North-Bound Arrival Time: 294
+Time: 294 Car #196 arrives north-bound - queue length: 1
+Time: 294 Scheduled Event Type: North-Bound Arrival Time: 301
+
+Handling Event Type: East-Bound Arrival Time: 294
+Time: 294 Car #197 arrives east-bound - queue length: 21
+Time: 294 Scheduled Event Type: East-Bound Arrival Time: 296
+
+Handling Event Type: East-Bound Arrival Time: 296
+Time: 296 Car #198 arrives east-bound - queue length: 22
+Time: 296 Scheduled Event Type: East-Bound Arrival Time: 298
+
+Handling Event Type: Light Change to EW Yellow Time: 298
+Advancing cars on east-west green
+  Car #163 advances east-bound
+  Car #164 advances east-bound
+  Car #167 advances east-bound
+  Car #168 advances east-bound
+  Car #170 advances east-bound
+  Car #172 advances east-bound
+  Car #173 advances east-bound
+  Car #175 advances east-bound
+  Car #177 advances east-bound
+  Car #179 advances east-bound
+  Car #185 advances west-bound
+  Car #194 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 12
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 298 Scheduled Event Type: Light Change to NS Green Time: 300
+
+Handling Event Type: East-Bound Arrival Time: 298
+Time: 298 Car #199 arrives east-bound - queue length: 13
+Time: 298 Scheduled Event Type: East-Bound Arrival Time: 299
+
+Handling Event Type: East-Bound Arrival Time: 299
+Time: 299 Car #200 arrives east-bound - queue length: 14
+Time: 299 Scheduled Event Type: East-Bound Arrival Time: 301
+
+Handling Event Type: Light Change to NS Green Time: 300
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #180 advances east-bound
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 1 Remaining queue: 13
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 300 Scheduled Event Type: Light Change to NS Yellow Time: 317
+
+Handling Event Type: North-Bound Arrival Time: 301
+Time: 301 Car #201 arrives north-bound - queue length: 2
+Time: 301 Scheduled Event Type: North-Bound Arrival Time: 308
+
+Handling Event Type: East-Bound Arrival Time: 301
+Time: 301 Car #202 arrives east-bound - queue length: 14
+Time: 301 Scheduled Event Type: East-Bound Arrival Time: 305
+
+Handling Event Type: South-Bound Arrival Time: 302
+Time: 302 Car #203 arrives south-bound - queue length: 2
+Time: 302 Scheduled Event Type: South-Bound Arrival Time: 314
+
+Handling Event Type: East-Bound Arrival Time: 305
+Time: 305 Car #204 arrives east-bound - queue length: 15
+Time: 305 Scheduled Event Type: East-Bound Arrival Time: 306
+
+Handling Event Type: East-Bound Arrival Time: 306
+Time: 306 Car #205 arrives east-bound - queue length: 16
+Time: 306 Scheduled Event Type: East-Bound Arrival Time: 309
+
+Handling Event Type: North-Bound Arrival Time: 308
+Time: 308 Car #206 arrives north-bound - queue length: 3
+Time: 308 Scheduled Event Type: North-Bound Arrival Time: 315
+
+Handling Event Type: East-Bound Arrival Time: 309
+Time: 309 Car #207 arrives east-bound - queue length: 17
+Time: 309 Scheduled Event Type: East-Bound Arrival Time: 312
+
+Handling Event Type: East-Bound Arrival Time: 312
+Time: 312 Car #208 arrives east-bound - queue length: 18
+Time: 312 Scheduled Event Type: East-Bound Arrival Time: 315
+
+Handling Event Type: West-Bound Arrival Time: 313
+Time: 313 Car #209 arrives west-bound - queue length: 1
+Time: 313 Scheduled Event Type: West-Bound Arrival Time: 332
+
+Handling Event Type: South-Bound Arrival Time: 314
+Time: 314 Car #210 arrives south-bound - queue length: 3
+Time: 314 Scheduled Event Type: South-Bound Arrival Time: 325
+
+Handling Event Type: North-Bound Arrival Time: 315
+Time: 315 Car #211 arrives north-bound - queue length: 4
+Time: 315 Scheduled Event Type: North-Bound Arrival Time: 322
+
+Handling Event Type: East-Bound Arrival Time: 315
+Time: 315 Car #212 arrives east-bound - queue length: 19
+Time: 315 Scheduled Event Type: East-Bound Arrival Time: 318
+
+Handling Event Type: Light Change to NS Yellow Time: 317
+Advancing cars on north-south green
+  Car #196 advances north-bound
+  Car #201 advances north-bound
+  Car #206 advances north-bound
+  Car #211 advances north-bound
+  Car #195 advances south-bound
+  Car #203 advances south-bound
+  Car #210 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 317 Scheduled Event Type: Light Change to EW Green Time: 320
+
+Handling Event Type: East-Bound Arrival Time: 318
+Time: 318 Car #213 arrives east-bound - queue length: 20
+Time: 318 Scheduled Event Type: East-Bound Arrival Time: 320
+
+Handling Event Type: Light Change to EW Green Time: 320
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 320 Scheduled Event Type: Light Change to EW Yellow Time: 330
+
+Handling Event Type: East-Bound Arrival Time: 320
+Time: 320 Car #214 arrives east-bound - queue length: 21
+Time: 320 Scheduled Event Type: East-Bound Arrival Time: 323
+
+Handling Event Type: North-Bound Arrival Time: 322
+Time: 322 Car #215 arrives north-bound - queue length: 1
+Time: 322 Scheduled Event Type: North-Bound Arrival Time: 329
+
+Handling Event Type: East-Bound Arrival Time: 323
+Time: 323 Car #216 arrives east-bound - queue length: 22
+Time: 323 Scheduled Event Type: East-Bound Arrival Time: 323
+
+Handling Event Type: East-Bound Arrival Time: 323
+Time: 323 Car #217 arrives east-bound - queue length: 23
+Time: 323 Scheduled Event Type: East-Bound Arrival Time: 325
+
+Handling Event Type: South-Bound Arrival Time: 325
+Time: 325 Car #218 arrives south-bound - queue length: 1
+Time: 325 Scheduled Event Type: South-Bound Arrival Time: 341
+
+Handling Event Type: East-Bound Arrival Time: 325
+Time: 325 Car #219 arrives east-bound - queue length: 24
+Time: 325 Scheduled Event Type: East-Bound Arrival Time: 327
+
+Handling Event Type: East-Bound Arrival Time: 327
+Time: 327 Car #220 arrives east-bound - queue length: 25
+Time: 327 Scheduled Event Type: East-Bound Arrival Time: 330
+
+Handling Event Type: North-Bound Arrival Time: 329
+Time: 329 Car #221 arrives north-bound - queue length: 2
+Time: 329 Scheduled Event Type: North-Bound Arrival Time: 336
+
+Handling Event Type: Light Change to EW Yellow Time: 330
+Advancing cars on east-west green
+  Car #182 advances east-bound
+  Car #183 advances east-bound
+  Car #184 advances east-bound
+  Car #187 advances east-bound
+  Car #188 advances east-bound
+  Car #189 advances east-bound
+  Car #191 advances east-bound
+  Car #192 advances east-bound
+  Car #193 advances east-bound
+  Car #197 advances east-bound
+  Car #209 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 15
+West-bound cars advanced on green: 1 Remaining queue: 0
+Time: 330 Scheduled Event Type: Light Change to NS Green Time: 332
+
+Handling Event Type: East-Bound Arrival Time: 330
+Time: 330 Car #222 arrives east-bound - queue length: 16
+Time: 330 Scheduled Event Type: East-Bound Arrival Time: 333
+
+Handling Event Type: West-Bound Arrival Time: 332
+Time: 332 Car #223 arrives west-bound - queue length: 1
+Time: 332 Scheduled Event Type: West-Bound Arrival Time: 344
+
+Handling Event Type: Light Change to NS Green Time: 332
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #198 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #199 advances east-bound
+  Next west-bound car will advance on yellow
+  Car #223 advances west-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 14
+West-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 332 Scheduled Event Type: Light Change to NS Yellow Time: 349
+
+Handling Event Type: East-Bound Arrival Time: 333
+Time: 333 Car #224 arrives east-bound - queue length: 15
+Time: 333 Scheduled Event Type: East-Bound Arrival Time: 335
+
+Handling Event Type: East-Bound Arrival Time: 335
+Time: 335 Car #225 arrives east-bound - queue length: 16
+Time: 335 Scheduled Event Type: East-Bound Arrival Time: 337
+
+Handling Event Type: North-Bound Arrival Time: 336
+Time: 336 Car #226 arrives north-bound - queue length: 3
+Time: 336 Scheduled Event Type: North-Bound Arrival Time: 343
+
+Handling Event Type: East-Bound Arrival Time: 337
+Time: 337 Car #227 arrives east-bound - queue length: 17
+Time: 337 Scheduled Event Type: East-Bound Arrival Time: 338
+
+Handling Event Type: East-Bound Arrival Time: 338
+Time: 338 Car #228 arrives east-bound - queue length: 18
+Time: 338 Scheduled Event Type: East-Bound Arrival Time: 340
+
+Handling Event Type: East-Bound Arrival Time: 340
+Time: 340 Car #229 arrives east-bound - queue length: 19
+Time: 340 Scheduled Event Type: East-Bound Arrival Time: 342
+
+Handling Event Type: South-Bound Arrival Time: 341
+Time: 341 Car #230 arrives south-bound - queue length: 2
+Time: 341 Scheduled Event Type: South-Bound Arrival Time: 352
+
+Handling Event Type: East-Bound Arrival Time: 342
+Time: 342 Car #231 arrives east-bound - queue length: 20
+Time: 342 Scheduled Event Type: East-Bound Arrival Time: 344
+
+Handling Event Type: North-Bound Arrival Time: 343
+Time: 343 Car #232 arrives north-bound - queue length: 4
+Time: 343 Scheduled Event Type: North-Bound Arrival Time: 350
+
+Handling Event Type: West-Bound Arrival Time: 344
+Time: 344 Car #233 arrives west-bound - queue length: 1
+Time: 344 Scheduled Event Type: West-Bound Arrival Time: 359
+
+Handling Event Type: East-Bound Arrival Time: 344
+Time: 344 Car #234 arrives east-bound - queue length: 21
+Time: 344 Scheduled Event Type: East-Bound Arrival Time: 347
+
+Handling Event Type: East-Bound Arrival Time: 347
+Time: 347 Car #235 arrives east-bound - queue length: 22
+Time: 347 Scheduled Event Type: East-Bound Arrival Time: 348
+
+Handling Event Type: East-Bound Arrival Time: 348
+Time: 348 Car #236 arrives east-bound - queue length: 23
+Time: 348 Scheduled Event Type: East-Bound Arrival Time: 350
+
+Handling Event Type: Light Change to NS Yellow Time: 349
+Advancing cars on north-south green
+  Car #215 advances north-bound
+  Car #221 advances north-bound
+  Car #226 advances north-bound
+  Car #232 advances north-bound
+  Car #218 advances south-bound
+  Car #230 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 349 Scheduled Event Type: Light Change to EW Green Time: 352
+
+Handling Event Type: North-Bound Arrival Time: 350
+Time: 350 Car #237 arrives north-bound - queue length: 1
+Time: 350 Scheduled Event Type: North-Bound Arrival Time: 357
+
+Handling Event Type: East-Bound Arrival Time: 350
+Time: 350 Car #238 arrives east-bound - queue length: 24
+Time: 350 Scheduled Event Type: East-Bound Arrival Time: 352
+
+Handling Event Type: South-Bound Arrival Time: 352
+Time: 352 Car #239 arrives south-bound - queue length: 1
+Time: 352 Scheduled Event Type: South-Bound Arrival Time: 361
+
+Handling Event Type: Light Change to EW Green Time: 352
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #237 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  Next south-bound car will advance on yellow
+  Car #239 advances south-bound
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 352 Scheduled Event Type: Light Change to EW Yellow Time: 362
+
+Handling Event Type: East-Bound Arrival Time: 352
+Time: 352 Car #240 arrives east-bound - queue length: 25
+Time: 352 Scheduled Event Type: East-Bound Arrival Time: 352
+
+Handling Event Type: East-Bound Arrival Time: 352
+Time: 352 Car #241 arrives east-bound - queue length: 26
+Time: 352 Scheduled Event Type: East-Bound Arrival Time: 355
+
+Handling Event Type: East-Bound Arrival Time: 355
+Time: 355 Car #242 arrives east-bound - queue length: 27
+Time: 355 Scheduled Event Type: East-Bound Arrival Time: 359
+
+Handling Event Type: North-Bound Arrival Time: 357
+Time: 357 Car #243 arrives north-bound - queue length: 1
+Time: 357 Scheduled Event Type: North-Bound Arrival Time: 364
+
+Handling Event Type: West-Bound Arrival Time: 359
+Time: 359 Car #244 arrives west-bound - queue length: 2
+Time: 359 Scheduled Event Type: West-Bound Arrival Time: 375
+
+Handling Event Type: East-Bound Arrival Time: 359
+Time: 359 Car #245 arrives east-bound - queue length: 28
+Time: 359 Scheduled Event Type: East-Bound Arrival Time: 362
+
+Handling Event Type: South-Bound Arrival Time: 361
+Time: 361 Car #246 arrives south-bound - queue length: 1
+Time: 361 Scheduled Event Type: South-Bound Arrival Time: 373
+
+Handling Event Type: Light Change to EW Yellow Time: 362
+Advancing cars on east-west green
+  Car #200 advances east-bound
+  Car #202 advances east-bound
+  Car #204 advances east-bound
+  Car #205 advances east-bound
+  Car #207 advances east-bound
+  Car #208 advances east-bound
+  Car #212 advances east-bound
+  Car #213 advances east-bound
+  Car #214 advances east-bound
+  Car #216 advances east-bound
+  Car #233 advances west-bound
+  Car #244 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 18
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 362 Scheduled Event Type: Light Change to NS Green Time: 364
+
+Handling Event Type: East-Bound Arrival Time: 362
+Time: 362 Car #247 arrives east-bound - queue length: 19
+Time: 362 Scheduled Event Type: East-Bound Arrival Time: 365
+
+Handling Event Type: North-Bound Arrival Time: 364
+Time: 364 Car #248 arrives north-bound - queue length: 2
+Time: 364 Scheduled Event Type: North-Bound Arrival Time: 371
+
+Handling Event Type: Light Change to NS Green Time: 364
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 19
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 364 Scheduled Event Type: Light Change to NS Yellow Time: 381
+
+Handling Event Type: East-Bound Arrival Time: 365
+Time: 365 Car #249 arrives east-bound - queue length: 20
+Time: 365 Scheduled Event Type: East-Bound Arrival Time: 369
+
+Handling Event Type: East-Bound Arrival Time: 369
+Time: 369 Car #250 arrives east-bound - queue length: 21
+Time: 369 Scheduled Event Type: East-Bound Arrival Time: 373
+
+Handling Event Type: North-Bound Arrival Time: 371
+Time: 371 Car #251 arrives north-bound - queue length: 3
+Time: 371 Scheduled Event Type: North-Bound Arrival Time: 378
+
+Handling Event Type: South-Bound Arrival Time: 373
+Time: 373 Car #252 arrives south-bound - queue length: 2
+Time: 373 Scheduled Event Type: South-Bound Arrival Time: 389
+
+Handling Event Type: East-Bound Arrival Time: 373
+Time: 373 Car #253 arrives east-bound - queue length: 22
+Time: 373 Scheduled Event Type: East-Bound Arrival Time: 377
+
+Handling Event Type: West-Bound Arrival Time: 375
+Time: 375 Car #254 arrives west-bound - queue length: 1
+Time: 375 Scheduled Event Type: West-Bound Arrival Time: 385
+
+Handling Event Type: East-Bound Arrival Time: 377
+Time: 377 Car #255 arrives east-bound - queue length: 23
+Time: 377 Scheduled Event Type: East-Bound Arrival Time: 379
+
+Handling Event Type: North-Bound Arrival Time: 378
+Time: 378 Car #256 arrives north-bound - queue length: 4
+Time: 378 Scheduled Event Type: North-Bound Arrival Time: 385
+
+Handling Event Type: East-Bound Arrival Time: 379
+Time: 379 Car #257 arrives east-bound - queue length: 24
+Time: 379 Scheduled Event Type: East-Bound Arrival Time: 380
+
+Handling Event Type: East-Bound Arrival Time: 380
+Time: 380 Car #258 arrives east-bound - queue length: 25
+Time: 380 Scheduled Event Type: East-Bound Arrival Time: 383
+
+Handling Event Type: Light Change to NS Yellow Time: 381
+Advancing cars on north-south green
+  Car #243 advances north-bound
+  Car #248 advances north-bound
+  Car #251 advances north-bound
+  Car #256 advances north-bound
+  Car #246 advances south-bound
+  Car #252 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 381 Scheduled Event Type: Light Change to EW Green Time: 384
+
+Handling Event Type: East-Bound Arrival Time: 383
+Time: 383 Car #259 arrives east-bound - queue length: 26
+Time: 383 Scheduled Event Type: East-Bound Arrival Time: 386
+
+Handling Event Type: Light Change to EW Green Time: 384
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 384 Scheduled Event Type: Light Change to EW Yellow Time: 394
+
+Handling Event Type: West-Bound Arrival Time: 385
+Time: 385 Car #260 arrives west-bound - queue length: 2
+Time: 385 Scheduled Event Type: West-Bound Arrival Time: 399
+
+Handling Event Type: North-Bound Arrival Time: 385
+Time: 385 Car #261 arrives north-bound - queue length: 1
+Time: 385 Scheduled Event Type: North-Bound Arrival Time: 392
+
+Handling Event Type: East-Bound Arrival Time: 386
+Time: 386 Car #262 arrives east-bound - queue length: 27
+Time: 386 Scheduled Event Type: East-Bound Arrival Time: 388
+
+Handling Event Type: East-Bound Arrival Time: 388
+Time: 388 Car #263 arrives east-bound - queue length: 28
+Time: 388 Scheduled Event Type: East-Bound Arrival Time: 390
+
+Handling Event Type: South-Bound Arrival Time: 389
+Time: 389 Car #264 arrives south-bound - queue length: 1
+Time: 389 Scheduled Event Type: South-Bound Arrival Time: 402
+
+Handling Event Type: East-Bound Arrival Time: 390
+Time: 390 Car #265 arrives east-bound - queue length: 29
+Time: 390 Scheduled Event Type: East-Bound Arrival Time: 392
+
+Handling Event Type: North-Bound Arrival Time: 392
+Time: 392 Car #266 arrives north-bound - queue length: 2
+Time: 392 Scheduled Event Type: North-Bound Arrival Time: 399
+
+Handling Event Type: East-Bound Arrival Time: 392
+Time: 392 Car #267 arrives east-bound - queue length: 30
+Time: 392 Scheduled Event Type: East-Bound Arrival Time: 394
+
+Handling Event Type: Light Change to EW Yellow Time: 394
+Advancing cars on east-west green
+  Car #217 advances east-bound
+  Car #219 advances east-bound
+  Car #220 advances east-bound
+  Car #222 advances east-bound
+  Car #224 advances east-bound
+  Car #225 advances east-bound
+  Car #227 advances east-bound
+  Car #228 advances east-bound
+  Car #229 advances east-bound
+  Car #231 advances east-bound
+  Car #254 advances west-bound
+  Car #260 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 20
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 394 Scheduled Event Type: Light Change to NS Green Time: 396
+
+Handling Event Type: East-Bound Arrival Time: 394
+Time: 394 Car #268 arrives east-bound - queue length: 21
+Time: 394 Scheduled Event Type: East-Bound Arrival Time: 396
+
+Handling Event Type: Light Change to NS Green Time: 396
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #234 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #235 advances east-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 19
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 396 Scheduled Event Type: Light Change to NS Yellow Time: 413
+
+Handling Event Type: East-Bound Arrival Time: 396
+Time: 396 Car #269 arrives east-bound - queue length: 20
+Time: 396 Scheduled Event Type: East-Bound Arrival Time: 398
+
+Handling Event Type: East-Bound Arrival Time: 398
+Time: 398 Car #270 arrives east-bound - queue length: 21
+Time: 398 Scheduled Event Type: East-Bound Arrival Time: 402
+
+Handling Event Type: West-Bound Arrival Time: 399
+Time: 399 Car #271 arrives west-bound - queue length: 1
+Time: 399 Scheduled Event Type: West-Bound Arrival Time: 417
+
+Handling Event Type: North-Bound Arrival Time: 399
+Time: 399 Car #272 arrives north-bound - queue length: 3
+Time: 399 Scheduled Event Type: North-Bound Arrival Time: 406
+
+Handling Event Type: South-Bound Arrival Time: 402
+Time: 402 Car #273 arrives south-bound - queue length: 2
+Time: 402 Scheduled Event Type: South-Bound Arrival Time: 416
+
+Handling Event Type: East-Bound Arrival Time: 402
+Time: 402 Car #274 arrives east-bound - queue length: 22
+Time: 402 Scheduled Event Type: East-Bound Arrival Time: 404
+
+Handling Event Type: East-Bound Arrival Time: 404
+Time: 404 Car #275 arrives east-bound - queue length: 23
+Time: 404 Scheduled Event Type: East-Bound Arrival Time: 407
+
+Handling Event Type: North-Bound Arrival Time: 406
+Time: 406 Car #276 arrives north-bound - queue length: 4
+Time: 406 Scheduled Event Type: North-Bound Arrival Time: 413
+
+Handling Event Type: East-Bound Arrival Time: 407
+Time: 407 Car #277 arrives east-bound - queue length: 24
+Time: 407 Scheduled Event Type: East-Bound Arrival Time: 410
+
+Handling Event Type: East-Bound Arrival Time: 410
+Time: 410 Car #278 arrives east-bound - queue length: 25
+Time: 410 Scheduled Event Type: East-Bound Arrival Time: 413
+
+Handling Event Type: Light Change to NS Yellow Time: 413
+Advancing cars on north-south green
+  Car #261 advances north-bound
+  Car #266 advances north-bound
+  Car #272 advances north-bound
+  Car #276 advances north-bound
+  Car #264 advances south-bound
+  Car #273 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 413 Scheduled Event Type: Light Change to EW Green Time: 416
+
+Handling Event Type: North-Bound Arrival Time: 413
+Time: 413 Car #279 arrives north-bound - queue length: 1
+Time: 413 Scheduled Event Type: North-Bound Arrival Time: 420
+
+Handling Event Type: East-Bound Arrival Time: 413
+Time: 413 Car #280 arrives east-bound - queue length: 26
+Time: 413 Scheduled Event Type: East-Bound Arrival Time: 417
+
+Handling Event Type: South-Bound Arrival Time: 416
+Time: 416 Car #281 arrives south-bound - queue length: 1
+Time: 416 Scheduled Event Type: South-Bound Arrival Time: 424
+
+Handling Event Type: Light Change to EW Green Time: 416
+Advancing cars on north-south yellow
+  Next north-bound car will NOT advance on yellow
+  Next south-bound car will advance on yellow
+  Car #281 advances south-bound
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 1
+South-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 416 Scheduled Event Type: Light Change to EW Yellow Time: 426
+
+Handling Event Type: West-Bound Arrival Time: 417
+Time: 417 Car #282 arrives west-bound - queue length: 2
+Time: 417 Scheduled Event Type: West-Bound Arrival Time: 434
+
+Handling Event Type: East-Bound Arrival Time: 417
+Time: 417 Car #283 arrives east-bound - queue length: 27
+Time: 417 Scheduled Event Type: East-Bound Arrival Time: 420
+
+Handling Event Type: North-Bound Arrival Time: 420
+Time: 420 Car #284 arrives north-bound - queue length: 2
+Time: 420 Scheduled Event Type: North-Bound Arrival Time: 427
+
+Handling Event Type: East-Bound Arrival Time: 420
+Time: 420 Car #285 arrives east-bound - queue length: 28
+Time: 420 Scheduled Event Type: East-Bound Arrival Time: 420
+
+Handling Event Type: East-Bound Arrival Time: 420
+Time: 420 Car #286 arrives east-bound - queue length: 29
+Time: 420 Scheduled Event Type: East-Bound Arrival Time: 423
+
+Handling Event Type: East-Bound Arrival Time: 423
+Time: 423 Car #287 arrives east-bound - queue length: 30
+Time: 423 Scheduled Event Type: East-Bound Arrival Time: 425
+
+Handling Event Type: South-Bound Arrival Time: 424
+Time: 424 Car #288 arrives south-bound - queue length: 1
+Time: 424 Scheduled Event Type: South-Bound Arrival Time: 430
+
+Handling Event Type: East-Bound Arrival Time: 425
+Time: 425 Car #289 arrives east-bound - queue length: 31
+Time: 425 Scheduled Event Type: East-Bound Arrival Time: 428
+
+Handling Event Type: Light Change to EW Yellow Time: 426
+Advancing cars on east-west green
+  Car #236 advances east-bound
+  Car #238 advances east-bound
+  Car #240 advances east-bound
+  Car #241 advances east-bound
+  Car #242 advances east-bound
+  Car #245 advances east-bound
+  Car #247 advances east-bound
+  Car #249 advances east-bound
+  Car #250 advances east-bound
+  Car #253 advances east-bound
+  Car #271 advances west-bound
+  Car #282 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 21
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 426 Scheduled Event Type: Light Change to NS Green Time: 428
+
+Handling Event Type: North-Bound Arrival Time: 427
+Time: 427 Car #290 arrives north-bound - queue length: 3
+Time: 427 Scheduled Event Type: North-Bound Arrival Time: 434
+
+Handling Event Type: East-Bound Arrival Time: 428
+Time: 428 Car #291 arrives east-bound - queue length: 22
+Time: 428 Scheduled Event Type: East-Bound Arrival Time: 432
+
+Handling Event Type: Light Change to NS Green Time: 428
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #255 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #257 advances east-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 20
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 428 Scheduled Event Type: Light Change to NS Yellow Time: 445
+
+Handling Event Type: South-Bound Arrival Time: 430
+Time: 430 Car #292 arrives south-bound - queue length: 2
+Time: 430 Scheduled Event Type: South-Bound Arrival Time: 441
+
+Handling Event Type: East-Bound Arrival Time: 432
+Time: 432 Car #293 arrives east-bound - queue length: 21
+Time: 432 Scheduled Event Type: East-Bound Arrival Time: 434
+
+Handling Event Type: West-Bound Arrival Time: 434
+Time: 434 Car #294 arrives west-bound - queue length: 1
+Time: 434 Scheduled Event Type: West-Bound Arrival Time: 447
+
+Handling Event Type: North-Bound Arrival Time: 434
+Time: 434 Car #295 arrives north-bound - queue length: 4
+Time: 434 Scheduled Event Type: North-Bound Arrival Time: 441
+
+Handling Event Type: East-Bound Arrival Time: 434
+Time: 434 Car #296 arrives east-bound - queue length: 22
+Time: 434 Scheduled Event Type: East-Bound Arrival Time: 438
+
+Handling Event Type: East-Bound Arrival Time: 438
+Time: 438 Car #297 arrives east-bound - queue length: 23
+Time: 438 Scheduled Event Type: East-Bound Arrival Time: 442
+
+Handling Event Type: South-Bound Arrival Time: 441
+Time: 441 Car #298 arrives south-bound - queue length: 3
+Time: 441 Scheduled Event Type: South-Bound Arrival Time: 450
+
+Handling Event Type: North-Bound Arrival Time: 441
+Time: 441 Car #299 arrives north-bound - queue length: 5
+Time: 441 Scheduled Event Type: North-Bound Arrival Time: 448
+
+Handling Event Type: East-Bound Arrival Time: 442
+Time: 442 Car #300 arrives east-bound - queue length: 24
+Time: 442 Scheduled Event Type: East-Bound Arrival Time: 445
+
+Handling Event Type: Light Change to NS Yellow Time: 445
+Advancing cars on north-south green
+  Car #279 advances north-bound
+  Car #284 advances north-bound
+  Car #290 advances north-bound
+  Car #295 advances north-bound
+  Car #299 advances north-bound
+  Car #288 advances south-bound
+  Car #292 advances south-bound
+  Car #298 advances south-bound
+North-bound cars advanced on green: 5 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 445 Scheduled Event Type: Light Change to EW Green Time: 448
+
+Handling Event Type: East-Bound Arrival Time: 445
+Time: 445 Car #301 arrives east-bound - queue length: 25
+Time: 445 Scheduled Event Type: East-Bound Arrival Time: 446
+
+Handling Event Type: East-Bound Arrival Time: 446
+Time: 446 Car #302 arrives east-bound - queue length: 26
+Time: 446 Scheduled Event Type: East-Bound Arrival Time: 447
+
+Handling Event Type: West-Bound Arrival Time: 447
+Time: 447 Car #303 arrives west-bound - queue length: 2
+Time: 447 Scheduled Event Type: West-Bound Arrival Time: 464
+
+Handling Event Type: East-Bound Arrival Time: 447
+Time: 447 Car #304 arrives east-bound - queue length: 27
+Time: 447 Scheduled Event Type: East-Bound Arrival Time: 450
+
+Handling Event Type: North-Bound Arrival Time: 448
+Time: 448 Car #305 arrives north-bound - queue length: 1
+Time: 448 Scheduled Event Type: North-Bound Arrival Time: 455
+
+Handling Event Type: Light Change to EW Green Time: 448
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #305 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 448 Scheduled Event Type: Light Change to EW Yellow Time: 458
+
+Handling Event Type: South-Bound Arrival Time: 450
+Time: 450 Car #306 arrives south-bound - queue length: 1
+Time: 450 Scheduled Event Type: South-Bound Arrival Time: 466
+
+Handling Event Type: East-Bound Arrival Time: 450
+Time: 450 Car #307 arrives east-bound - queue length: 28
+Time: 450 Scheduled Event Type: East-Bound Arrival Time: 453
+
+Handling Event Type: East-Bound Arrival Time: 453
+Time: 453 Car #308 arrives east-bound - queue length: 29
+Time: 453 Scheduled Event Type: East-Bound Arrival Time: 454
+
+Handling Event Type: East-Bound Arrival Time: 454
+Time: 454 Car #309 arrives east-bound - queue length: 30
+Time: 454 Scheduled Event Type: East-Bound Arrival Time: 455
+
+Handling Event Type: North-Bound Arrival Time: 455
+Time: 455 Car #310 arrives north-bound - queue length: 1
+Time: 455 Scheduled Event Type: North-Bound Arrival Time: 462
+
+Handling Event Type: East-Bound Arrival Time: 455
+Time: 455 Car #311 arrives east-bound - queue length: 31
+Time: 455 Scheduled Event Type: East-Bound Arrival Time: 456
+
+Handling Event Type: East-Bound Arrival Time: 456
+Time: 456 Car #312 arrives east-bound - queue length: 32
+Time: 456 Scheduled Event Type: East-Bound Arrival Time: 459
+
+Handling Event Type: Light Change to EW Yellow Time: 458
+Advancing cars on east-west green
+  Car #258 advances east-bound
+  Car #259 advances east-bound
+  Car #262 advances east-bound
+  Car #263 advances east-bound
+  Car #265 advances east-bound
+  Car #267 advances east-bound
+  Car #268 advances east-bound
+  Car #269 advances east-bound
+  Car #270 advances east-bound
+  Car #274 advances east-bound
+  Car #294 advances west-bound
+  Car #303 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 22
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 458 Scheduled Event Type: Light Change to NS Green Time: 460
+
+Handling Event Type: East-Bound Arrival Time: 459
+Time: 459 Car #313 arrives east-bound - queue length: 23
+Time: 459 Scheduled Event Type: East-Bound Arrival Time: 461
+
+Handling Event Type: Light Change to NS Green Time: 460
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 23
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 460 Scheduled Event Type: Light Change to NS Yellow Time: 477
+
+Handling Event Type: East-Bound Arrival Time: 461
+Time: 461 Car #314 arrives east-bound - queue length: 24
+Time: 461 Scheduled Event Type: East-Bound Arrival Time: 465
+
+Handling Event Type: North-Bound Arrival Time: 462
+Time: 462 Car #315 arrives north-bound - queue length: 2
+Time: 462 Scheduled Event Type: North-Bound Arrival Time: 469
+
+Handling Event Type: West-Bound Arrival Time: 464
+Time: 464 Car #316 arrives west-bound - queue length: 1
+Time: 464 Scheduled Event Type: West-Bound Arrival Time: 476
+
+Handling Event Type: East-Bound Arrival Time: 465
+Time: 465 Car #317 arrives east-bound - queue length: 25
+Time: 465 Scheduled Event Type: East-Bound Arrival Time: 469
+
+Handling Event Type: South-Bound Arrival Time: 466
+Time: 466 Car #318 arrives south-bound - queue length: 2
+Time: 466 Scheduled Event Type: South-Bound Arrival Time: 482
+
+Handling Event Type: North-Bound Arrival Time: 469
+Time: 469 Car #319 arrives north-bound - queue length: 3
+Time: 469 Scheduled Event Type: North-Bound Arrival Time: 476
+
+Handling Event Type: East-Bound Arrival Time: 469
+Time: 469 Car #320 arrives east-bound - queue length: 26
+Time: 469 Scheduled Event Type: East-Bound Arrival Time: 470
+
+Handling Event Type: East-Bound Arrival Time: 470
+Time: 470 Car #321 arrives east-bound - queue length: 27
+Time: 470 Scheduled Event Type: East-Bound Arrival Time: 473
+
+Handling Event Type: East-Bound Arrival Time: 473
+Time: 473 Car #322 arrives east-bound - queue length: 28
+Time: 473 Scheduled Event Type: East-Bound Arrival Time: 476
+
+Handling Event Type: West-Bound Arrival Time: 476
+Time: 476 Car #323 arrives west-bound - queue length: 2
+Time: 476 Scheduled Event Type: West-Bound Arrival Time: 491
+
+Handling Event Type: North-Bound Arrival Time: 476
+Time: 476 Car #324 arrives north-bound - queue length: 4
+Time: 476 Scheduled Event Type: North-Bound Arrival Time: 483
+
+Handling Event Type: East-Bound Arrival Time: 476
+Time: 476 Car #325 arrives east-bound - queue length: 29
+Time: 476 Scheduled Event Type: East-Bound Arrival Time: 479
+
+Handling Event Type: Light Change to NS Yellow Time: 477
+Advancing cars on north-south green
+  Car #310 advances north-bound
+  Car #315 advances north-bound
+  Car #319 advances north-bound
+  Car #324 advances north-bound
+  Car #306 advances south-bound
+  Car #318 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 477 Scheduled Event Type: Light Change to EW Green Time: 480
+
+Handling Event Type: East-Bound Arrival Time: 479
+Time: 479 Car #326 arrives east-bound - queue length: 30
+Time: 479 Scheduled Event Type: East-Bound Arrival Time: 481
+
+Handling Event Type: Light Change to EW Green Time: 480
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 480 Scheduled Event Type: Light Change to EW Yellow Time: 490
+
+Handling Event Type: East-Bound Arrival Time: 481
+Time: 481 Car #327 arrives east-bound - queue length: 31
+Time: 481 Scheduled Event Type: East-Bound Arrival Time: 485
+
+Handling Event Type: South-Bound Arrival Time: 482
+Time: 482 Car #328 arrives south-bound - queue length: 1
+Time: 482 Scheduled Event Type: South-Bound Arrival Time: 492
+
+Handling Event Type: North-Bound Arrival Time: 483
+Time: 483 Car #329 arrives north-bound - queue length: 1
+Time: 483 Scheduled Event Type: North-Bound Arrival Time: 490
+
+Handling Event Type: East-Bound Arrival Time: 485
+Time: 485 Car #330 arrives east-bound - queue length: 32
+Time: 485 Scheduled Event Type: East-Bound Arrival Time: 486
+
+Handling Event Type: East-Bound Arrival Time: 486
+Time: 486 Car #331 arrives east-bound - queue length: 33
+Time: 486 Scheduled Event Type: East-Bound Arrival Time: 488
+
+Handling Event Type: East-Bound Arrival Time: 488
+Time: 488 Car #332 arrives east-bound - queue length: 34
+Time: 488 Scheduled Event Type: East-Bound Arrival Time: 491
+
+Handling Event Type: Light Change to EW Yellow Time: 490
+Advancing cars on east-west green
+  Car #275 advances east-bound
+  Car #277 advances east-bound
+  Car #278 advances east-bound
+  Car #280 advances east-bound
+  Car #283 advances east-bound
+  Car #285 advances east-bound
+  Car #286 advances east-bound
+  Car #287 advances east-bound
+  Car #289 advances east-bound
+  Car #291 advances east-bound
+  Car #316 advances west-bound
+  Car #323 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 24
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 490 Scheduled Event Type: Light Change to NS Green Time: 492
+
+Handling Event Type: North-Bound Arrival Time: 490
+Time: 490 Car #333 arrives north-bound - queue length: 2
+Time: 490 Scheduled Event Type: North-Bound Arrival Time: 497
+
+Handling Event Type: West-Bound Arrival Time: 491
+Time: 491 Car #334 arrives west-bound - queue length: 1
+Time: 491 Scheduled Event Type: West-Bound Arrival Time: 509
+
+Handling Event Type: East-Bound Arrival Time: 491
+Time: 491 Car #335 arrives east-bound - queue length: 25
+Time: 491 Scheduled Event Type: East-Bound Arrival Time: 494
+
+Handling Event Type: South-Bound Arrival Time: 492
+Time: 492 Car #336 arrives south-bound - queue length: 2
+Time: 492 Scheduled Event Type: South-Bound Arrival Time: 502
+
+Handling Event Type: Light Change to NS Green Time: 492
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  Next west-bound car will NOT advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 25
+West-bound cars advanced on yellow: 0 Remaining queue: 1
+Time: 492 Scheduled Event Type: Light Change to NS Yellow Time: 509
+
+Handling Event Type: East-Bound Arrival Time: 494
+Time: 494 Car #337 arrives east-bound - queue length: 26
+Time: 494 Scheduled Event Type: East-Bound Arrival Time: 496
+
+Handling Event Type: East-Bound Arrival Time: 496
+Time: 496 Car #338 arrives east-bound - queue length: 27
+Time: 496 Scheduled Event Type: East-Bound Arrival Time: 500
+
+Handling Event Type: North-Bound Arrival Time: 497
+Time: 497 Car #339 arrives north-bound - queue length: 3
+Time: 497 Scheduled Event Type: North-Bound Arrival Time: 504
+
+Handling Event Type: East-Bound Arrival Time: 500
+Time: 500 Car #340 arrives east-bound - queue length: 28
+Time: 500 Scheduled Event Type: East-Bound Arrival Time: 501
+
+Handling Event Type: East-Bound Arrival Time: 501
+Time: 501 Car #341 arrives east-bound - queue length: 29
+Time: 501 Scheduled Event Type: East-Bound Arrival Time: 502
+
+Handling Event Type: South-Bound Arrival Time: 502
+Time: 502 Car #342 arrives south-bound - queue length: 3
+Time: 502 Scheduled Event Type: South-Bound Arrival Time: 510
+
+Handling Event Type: East-Bound Arrival Time: 502
+Time: 502 Car #343 arrives east-bound - queue length: 30
+Time: 502 Scheduled Event Type: East-Bound Arrival Time: 504
+
+Handling Event Type: North-Bound Arrival Time: 504
+Time: 504 Car #344 arrives north-bound - queue length: 4
+Time: 504 Scheduled Event Type: North-Bound Arrival Time: 511
+
+Handling Event Type: East-Bound Arrival Time: 504
+Time: 504 Car #345 arrives east-bound - queue length: 31
+Time: 504 Scheduled Event Type: East-Bound Arrival Time: 505
+
+Handling Event Type: East-Bound Arrival Time: 505
+Time: 505 Car #346 arrives east-bound - queue length: 32
+Time: 505 Scheduled Event Type: East-Bound Arrival Time: 509
+
+Handling Event Type: West-Bound Arrival Time: 509
+Time: 509 Car #347 arrives west-bound - queue length: 2
+Time: 509 Scheduled Event Type: West-Bound Arrival Time: 522
+
+Handling Event Type: Light Change to NS Yellow Time: 509
+Advancing cars on north-south green
+  Car #329 advances north-bound
+  Car #333 advances north-bound
+  Car #339 advances north-bound
+  Car #344 advances north-bound
+  Car #328 advances south-bound
+  Car #336 advances south-bound
+  Car #342 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 509 Scheduled Event Type: Light Change to EW Green Time: 512
+
+Handling Event Type: East-Bound Arrival Time: 509
+Time: 509 Car #348 arrives east-bound - queue length: 33
+Time: 509 Scheduled Event Type: East-Bound Arrival Time: 512
+
+Handling Event Type: South-Bound Arrival Time: 510
+Time: 510 Car #349 arrives south-bound - queue length: 1
+Time: 510 Scheduled Event Type: South-Bound Arrival Time: 526
+
+Handling Event Type: North-Bound Arrival Time: 511
+Time: 511 Car #350 arrives north-bound - queue length: 1
+Time: 511 Scheduled Event Type: North-Bound Arrival Time: 518
+
+Handling Event Type: Light Change to EW Green Time: 512
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #350 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  Next south-bound car will advance on yellow
+  Car #349 advances south-bound
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 512 Scheduled Event Type: Light Change to EW Yellow Time: 522
+
+Handling Event Type: East-Bound Arrival Time: 512
+Time: 512 Car #351 arrives east-bound - queue length: 34
+Time: 512 Scheduled Event Type: East-Bound Arrival Time: 513
+
+Handling Event Type: East-Bound Arrival Time: 513
+Time: 513 Car #352 arrives east-bound - queue length: 35
+Time: 513 Scheduled Event Type: East-Bound Arrival Time: 516
+
+Handling Event Type: East-Bound Arrival Time: 516
+Time: 516 Car #353 arrives east-bound - queue length: 36
+Time: 516 Scheduled Event Type: East-Bound Arrival Time: 518
+
+Handling Event Type: North-Bound Arrival Time: 518
+Time: 518 Car #354 arrives north-bound - queue length: 1
+Time: 518 Scheduled Event Type: North-Bound Arrival Time: 525
+
+Handling Event Type: East-Bound Arrival Time: 518
+Time: 518 Car #355 arrives east-bound - queue length: 37
+Time: 518 Scheduled Event Type: East-Bound Arrival Time: 521
+
+Handling Event Type: East-Bound Arrival Time: 521
+Time: 521 Car #356 arrives east-bound - queue length: 38
+Time: 521 Scheduled Event Type: East-Bound Arrival Time: 522
+
+Handling Event Type: West-Bound Arrival Time: 522
+Time: 522 Car #357 arrives west-bound - queue length: 3
+Time: 522 Scheduled Event Type: West-Bound Arrival Time: 535
+
+Handling Event Type: Light Change to EW Yellow Time: 522
+Advancing cars on east-west green
+  Car #293 advances east-bound
+  Car #296 advances east-bound
+  Car #297 advances east-bound
+  Car #300 advances east-bound
+  Car #301 advances east-bound
+  Car #302 advances east-bound
+  Car #304 advances east-bound
+  Car #307 advances east-bound
+  Car #308 advances east-bound
+  Car #309 advances east-bound
+  Car #334 advances west-bound
+  Car #347 advances west-bound
+  Car #357 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 28
+West-bound cars advanced on green: 3 Remaining queue: 0
+Time: 522 Scheduled Event Type: Light Change to NS Green Time: 524
+
+Handling Event Type: East-Bound Arrival Time: 522
+Time: 522 Car #358 arrives east-bound - queue length: 29
+Time: 522 Scheduled Event Type: East-Bound Arrival Time: 525
+
+Handling Event Type: Light Change to NS Green Time: 524
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #311 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #312 advances east-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 27
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 524 Scheduled Event Type: Light Change to NS Yellow Time: 541
+
+Handling Event Type: North-Bound Arrival Time: 525
+Time: 525 Car #359 arrives north-bound - queue length: 2
+Time: 525 Scheduled Event Type: North-Bound Arrival Time: 532
+
+Handling Event Type: East-Bound Arrival Time: 525
+Time: 525 Car #360 arrives east-bound - queue length: 28
+Time: 525 Scheduled Event Type: East-Bound Arrival Time: 527
+
+Handling Event Type: South-Bound Arrival Time: 526
+Time: 526 Car #361 arrives south-bound - queue length: 1
+Time: 526 Scheduled Event Type: South-Bound Arrival Time: 545
+
+Handling Event Type: East-Bound Arrival Time: 527
+Time: 527 Car #362 arrives east-bound - queue length: 29
+Time: 527 Scheduled Event Type: East-Bound Arrival Time: 529
+
+Handling Event Type: East-Bound Arrival Time: 529
+Time: 529 Car #363 arrives east-bound - queue length: 30
+Time: 529 Scheduled Event Type: East-Bound Arrival Time: 534
+
+Handling Event Type: North-Bound Arrival Time: 532
+Time: 532 Car #364 arrives north-bound - queue length: 3
+Time: 532 Scheduled Event Type: North-Bound Arrival Time: 539
+
+Handling Event Type: East-Bound Arrival Time: 534
+Time: 534 Car #365 arrives east-bound - queue length: 31
+Time: 534 Scheduled Event Type: East-Bound Arrival Time: 537
+
+Handling Event Type: West-Bound Arrival Time: 535
+Time: 535 Car #366 arrives west-bound - queue length: 1
+Time: 535 Scheduled Event Type: West-Bound Arrival Time: 545
+
+Handling Event Type: East-Bound Arrival Time: 537
+Time: 537 Car #367 arrives east-bound - queue length: 32
+Time: 537 Scheduled Event Type: East-Bound Arrival Time: 540
+
+Handling Event Type: North-Bound Arrival Time: 539
+Time: 539 Car #368 arrives north-bound - queue length: 4
+Time: 539 Scheduled Event Type: North-Bound Arrival Time: 546
+
+Handling Event Type: East-Bound Arrival Time: 540
+Time: 540 Car #369 arrives east-bound - queue length: 33
+Time: 540 Scheduled Event Type: East-Bound Arrival Time: 544
+
+Handling Event Type: Light Change to NS Yellow Time: 541
+Advancing cars on north-south green
+  Car #354 advances north-bound
+  Car #359 advances north-bound
+  Car #364 advances north-bound
+  Car #368 advances north-bound
+  Car #361 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 1 Remaining queue: 0
+Time: 541 Scheduled Event Type: Light Change to EW Green Time: 544
+
+Handling Event Type: East-Bound Arrival Time: 544
+Time: 544 Car #370 arrives east-bound - queue length: 34
+Time: 544 Scheduled Event Type: East-Bound Arrival Time: 547
+
+Handling Event Type: Light Change to EW Green Time: 544
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 544 Scheduled Event Type: Light Change to EW Yellow Time: 554
+
+Handling Event Type: South-Bound Arrival Time: 545
+Time: 545 Car #371 arrives south-bound - queue length: 1
+Time: 545 Scheduled Event Type: South-Bound Arrival Time: 552
+
+Handling Event Type: West-Bound Arrival Time: 545
+Time: 545 Car #372 arrives west-bound - queue length: 2
+Time: 545 Scheduled Event Type: West-Bound Arrival Time: 560
+
+Handling Event Type: North-Bound Arrival Time: 546
+Time: 546 Car #373 arrives north-bound - queue length: 1
+Time: 546 Scheduled Event Type: North-Bound Arrival Time: 553
+
+Handling Event Type: East-Bound Arrival Time: 547
+Time: 547 Car #374 arrives east-bound - queue length: 35
+Time: 547 Scheduled Event Type: East-Bound Arrival Time: 551
+
+Handling Event Type: East-Bound Arrival Time: 551
+Time: 551 Car #375 arrives east-bound - queue length: 36
+Time: 551 Scheduled Event Type: East-Bound Arrival Time: 552
+
+Handling Event Type: South-Bound Arrival Time: 552
+Time: 552 Car #376 arrives south-bound - queue length: 2
+Time: 552 Scheduled Event Type: South-Bound Arrival Time: 558
+
+Handling Event Type: East-Bound Arrival Time: 552
+Time: 552 Car #377 arrives east-bound - queue length: 37
+Time: 552 Scheduled Event Type: East-Bound Arrival Time: 553
+
+Handling Event Type: North-Bound Arrival Time: 553
+Time: 553 Car #378 arrives north-bound - queue length: 2
+Time: 553 Scheduled Event Type: North-Bound Arrival Time: 560
+
+Handling Event Type: East-Bound Arrival Time: 553
+Time: 553 Car #379 arrives east-bound - queue length: 38
+Time: 553 Scheduled Event Type: East-Bound Arrival Time: 557
+
+Handling Event Type: Light Change to EW Yellow Time: 554
+Advancing cars on east-west green
+  Car #313 advances east-bound
+  Car #314 advances east-bound
+  Car #317 advances east-bound
+  Car #320 advances east-bound
+  Car #321 advances east-bound
+  Car #322 advances east-bound
+  Car #325 advances east-bound
+  Car #326 advances east-bound
+  Car #327 advances east-bound
+  Car #330 advances east-bound
+  Car #366 advances west-bound
+  Car #372 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 28
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 554 Scheduled Event Type: Light Change to NS Green Time: 556
+
+Handling Event Type: Light Change to NS Green Time: 556
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #331 advances east-bound
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 1 Remaining queue: 27
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 556 Scheduled Event Type: Light Change to NS Yellow Time: 573
+
+Handling Event Type: East-Bound Arrival Time: 557
+Time: 557 Car #380 arrives east-bound - queue length: 28
+Time: 557 Scheduled Event Type: East-Bound Arrival Time: 559
+
+Handling Event Type: South-Bound Arrival Time: 558
+Time: 558 Car #381 arrives south-bound - queue length: 3
+Time: 558 Scheduled Event Type: South-Bound Arrival Time: 573
+
+Handling Event Type: East-Bound Arrival Time: 559
+Time: 559 Car #382 arrives east-bound - queue length: 29
+Time: 559 Scheduled Event Type: East-Bound Arrival Time: 560
+
+Handling Event Type: West-Bound Arrival Time: 560
+Time: 560 Car #383 arrives west-bound - queue length: 1
+Time: 560 Scheduled Event Type: West-Bound Arrival Time: 572
+
+Handling Event Type: North-Bound Arrival Time: 560
+Time: 560 Car #384 arrives north-bound - queue length: 3
+Time: 560 Scheduled Event Type: North-Bound Arrival Time: 567
+
+Handling Event Type: East-Bound Arrival Time: 560
+Time: 560 Car #385 arrives east-bound - queue length: 30
+Time: 560 Scheduled Event Type: East-Bound Arrival Time: 562
+
+Handling Event Type: East-Bound Arrival Time: 562
+Time: 562 Car #386 arrives east-bound - queue length: 31
+Time: 562 Scheduled Event Type: East-Bound Arrival Time: 564
+
+Handling Event Type: East-Bound Arrival Time: 564
+Time: 564 Car #387 arrives east-bound - queue length: 32
+Time: 564 Scheduled Event Type: East-Bound Arrival Time: 566
+
+Handling Event Type: East-Bound Arrival Time: 566
+Time: 566 Car #388 arrives east-bound - queue length: 33
+Time: 566 Scheduled Event Type: East-Bound Arrival Time: 568
+
+Handling Event Type: North-Bound Arrival Time: 567
+Time: 567 Car #389 arrives north-bound - queue length: 4
+Time: 567 Scheduled Event Type: North-Bound Arrival Time: 574
+
+Handling Event Type: East-Bound Arrival Time: 568
+Time: 568 Car #390 arrives east-bound - queue length: 34
+Time: 568 Scheduled Event Type: East-Bound Arrival Time: 571
+
+Handling Event Type: East-Bound Arrival Time: 571
+Time: 571 Car #391 arrives east-bound - queue length: 35
+Time: 571 Scheduled Event Type: East-Bound Arrival Time: 574
+
+Handling Event Type: West-Bound Arrival Time: 572
+Time: 572 Car #392 arrives west-bound - queue length: 2
+Time: 572 Scheduled Event Type: West-Bound Arrival Time: 592
+
+Handling Event Type: Light Change to NS Yellow Time: 573
+Advancing cars on north-south green
+  Car #373 advances north-bound
+  Car #378 advances north-bound
+  Car #384 advances north-bound
+  Car #389 advances north-bound
+  Car #371 advances south-bound
+  Car #376 advances south-bound
+  Car #381 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 573 Scheduled Event Type: Light Change to EW Green Time: 576
+
+Handling Event Type: South-Bound Arrival Time: 573
+Time: 573 Car #393 arrives south-bound - queue length: 1
+Time: 573 Scheduled Event Type: South-Bound Arrival Time: 587
+
+Handling Event Type: North-Bound Arrival Time: 574
+Time: 574 Car #394 arrives north-bound - queue length: 1
+Time: 574 Scheduled Event Type: North-Bound Arrival Time: 581
+
+Handling Event Type: East-Bound Arrival Time: 574
+Time: 574 Car #395 arrives east-bound - queue length: 36
+Time: 574 Scheduled Event Type: East-Bound Arrival Time: 575
+
+Handling Event Type: East-Bound Arrival Time: 575
+Time: 575 Car #396 arrives east-bound - queue length: 37
+Time: 575 Scheduled Event Type: East-Bound Arrival Time: 579
+
+Handling Event Type: Light Change to EW Green Time: 576
+Advancing cars on north-south yellow
+  Next north-bound car will NOT advance on yellow
+  Next south-bound car will advance on yellow
+  Car #393 advances south-bound
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 1
+South-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 576 Scheduled Event Type: Light Change to EW Yellow Time: 586
+
+Handling Event Type: East-Bound Arrival Time: 579
+Time: 579 Car #397 arrives east-bound - queue length: 38
+Time: 579 Scheduled Event Type: East-Bound Arrival Time: 582
+
+Handling Event Type: North-Bound Arrival Time: 581
+Time: 581 Car #398 arrives north-bound - queue length: 2
+Time: 581 Scheduled Event Type: North-Bound Arrival Time: 588
+
+Handling Event Type: East-Bound Arrival Time: 582
+Time: 582 Car #399 arrives east-bound - queue length: 39
+Time: 582 Scheduled Event Type: East-Bound Arrival Time: 586
+
+Handling Event Type: Light Change to EW Yellow Time: 586
+Advancing cars on east-west green
+  Car #332 advances east-bound
+  Car #335 advances east-bound
+  Car #337 advances east-bound
+  Car #338 advances east-bound
+  Car #340 advances east-bound
+  Car #341 advances east-bound
+  Car #343 advances east-bound
+  Car #345 advances east-bound
+  Car #346 advances east-bound
+  Car #348 advances east-bound
+  Car #383 advances west-bound
+  Car #392 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 29
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 586 Scheduled Event Type: Light Change to NS Green Time: 588
+
+Handling Event Type: East-Bound Arrival Time: 586
+Time: 586 Car #400 arrives east-bound - queue length: 30
+Time: 586 Scheduled Event Type: East-Bound Arrival Time: 588
+
+Handling Event Type: South-Bound Arrival Time: 587
+Time: 587 Car #401 arrives south-bound - queue length: 1
+Time: 587 Scheduled Event Type: South-Bound Arrival Time: 611
+
+Handling Event Type: North-Bound Arrival Time: 588
+Time: 588 Car #402 arrives north-bound - queue length: 3
+Time: 588 Scheduled Event Type: North-Bound Arrival Time: 595
+
+Handling Event Type: Light Change to NS Green Time: 588
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #351 advances east-bound
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 1 Remaining queue: 29
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 588 Scheduled Event Type: Light Change to NS Yellow Time: 605
+
+Handling Event Type: East-Bound Arrival Time: 588
+Time: 588 Car #403 arrives east-bound - queue length: 30
+Time: 588 Scheduled Event Type: East-Bound Arrival Time: 592
+
+Handling Event Type: West-Bound Arrival Time: 592
+Time: 592 Car #404 arrives west-bound - queue length: 1
+Time: 592 Scheduled Event Type: West-Bound Arrival Time: 610
+
+Handling Event Type: East-Bound Arrival Time: 592
+Time: 592 Car #405 arrives east-bound - queue length: 31
+Time: 592 Scheduled Event Type: East-Bound Arrival Time: 595
+
+Handling Event Type: North-Bound Arrival Time: 595
+Time: 595 Car #406 arrives north-bound - queue length: 4
+Time: 595 Scheduled Event Type: North-Bound Arrival Time: 602
+
+Handling Event Type: East-Bound Arrival Time: 595
+Time: 595 Car #407 arrives east-bound - queue length: 32
+Time: 595 Scheduled Event Type: East-Bound Arrival Time: 596
+
+Handling Event Type: East-Bound Arrival Time: 596
+Time: 596 Car #408 arrives east-bound - queue length: 33
+Time: 596 Scheduled Event Type: East-Bound Arrival Time: 598
+
+Handling Event Type: East-Bound Arrival Time: 598
+Time: 598 Car #409 arrives east-bound - queue length: 34
+Time: 598 Scheduled Event Type: East-Bound Arrival Time: 600
+
+Handling Event Type: East-Bound Arrival Time: 600
+Time: 600 Car #410 arrives east-bound - queue length: 35
+Time: 600 Scheduled Event Type: East-Bound Arrival Time: 603
+
+Handling Event Type: North-Bound Arrival Time: 602
+Time: 602 Car #411 arrives north-bound - queue length: 5
+Time: 602 Scheduled Event Type: North-Bound Arrival Time: 609
+
+Handling Event Type: East-Bound Arrival Time: 603
+Time: 603 Car #412 arrives east-bound - queue length: 36
+Time: 603 Scheduled Event Type: East-Bound Arrival Time: 604
+
+Handling Event Type: East-Bound Arrival Time: 604
+Time: 604 Car #413 arrives east-bound - queue length: 37
+Time: 604 Scheduled Event Type: East-Bound Arrival Time: 607
+
+Handling Event Type: Light Change to NS Yellow Time: 605
+Advancing cars on north-south green
+  Car #394 advances north-bound
+  Car #398 advances north-bound
+  Car #402 advances north-bound
+  Car #406 advances north-bound
+  Car #411 advances north-bound
+  Car #401 advances south-bound
+North-bound cars advanced on green: 5 Remaining queue: 0
+South-bound cars advanced on green: 1 Remaining queue: 0
+Time: 605 Scheduled Event Type: Light Change to EW Green Time: 608
+
+Handling Event Type: East-Bound Arrival Time: 607
+Time: 607 Car #414 arrives east-bound - queue length: 38
+Time: 607 Scheduled Event Type: East-Bound Arrival Time: 609
+
+Handling Event Type: Light Change to EW Green Time: 608
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 608 Scheduled Event Type: Light Change to EW Yellow Time: 618
+
+Handling Event Type: North-Bound Arrival Time: 609
+Time: 609 Car #415 arrives north-bound - queue length: 1
+Time: 609 Scheduled Event Type: North-Bound Arrival Time: 616
+
+Handling Event Type: East-Bound Arrival Time: 609
+Time: 609 Car #416 arrives east-bound - queue length: 39
+Time: 609 Scheduled Event Type: East-Bound Arrival Time: 612
+
+Handling Event Type: West-Bound Arrival Time: 610
+Time: 610 Car #417 arrives west-bound - queue length: 2
+Time: 610 Scheduled Event Type: West-Bound Arrival Time: 630
+
+Handling Event Type: South-Bound Arrival Time: 611
+Time: 611 Car #418 arrives south-bound - queue length: 1
+Time: 611 Scheduled Event Type: South-Bound Arrival Time: 623
+
+Handling Event Type: East-Bound Arrival Time: 612
+Time: 612 Car #419 arrives east-bound - queue length: 40
+Time: 612 Scheduled Event Type: East-Bound Arrival Time: 615
+
+Handling Event Type: East-Bound Arrival Time: 615
+Time: 615 Car #420 arrives east-bound - queue length: 41
+Time: 615 Scheduled Event Type: East-Bound Arrival Time: 620
+
+Handling Event Type: North-Bound Arrival Time: 616
+Time: 616 Car #421 arrives north-bound - queue length: 2
+Time: 616 Scheduled Event Type: North-Bound Arrival Time: 623
+
+Handling Event Type: Light Change to EW Yellow Time: 618
+Advancing cars on east-west green
+  Car #352 advances east-bound
+  Car #353 advances east-bound
+  Car #355 advances east-bound
+  Car #356 advances east-bound
+  Car #358 advances east-bound
+  Car #360 advances east-bound
+  Car #362 advances east-bound
+  Car #363 advances east-bound
+  Car #365 advances east-bound
+  Car #367 advances east-bound
+  Car #404 advances west-bound
+  Car #417 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 31
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 618 Scheduled Event Type: Light Change to NS Green Time: 620
+
+Handling Event Type: East-Bound Arrival Time: 620
+Time: 620 Car #422 arrives east-bound - queue length: 32
+Time: 620 Scheduled Event Type: East-Bound Arrival Time: 624
+
+Handling Event Type: Light Change to NS Green Time: 620
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #369 advances east-bound
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 1 Remaining queue: 31
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 620 Scheduled Event Type: Light Change to NS Yellow Time: 637
+
+Handling Event Type: South-Bound Arrival Time: 623
+Time: 623 Car #423 arrives south-bound - queue length: 2
+Time: 623 Scheduled Event Type: South-Bound Arrival Time: 644
+
+Handling Event Type: North-Bound Arrival Time: 623
+Time: 623 Car #424 arrives north-bound - queue length: 3
+Time: 623 Scheduled Event Type: North-Bound Arrival Time: 630
+
+Handling Event Type: East-Bound Arrival Time: 624
+Time: 624 Car #425 arrives east-bound - queue length: 32
+Time: 624 Scheduled Event Type: East-Bound Arrival Time: 626
+
+Handling Event Type: East-Bound Arrival Time: 626
+Time: 626 Car #426 arrives east-bound - queue length: 33
+Time: 626 Scheduled Event Type: East-Bound Arrival Time: 628
+
+Handling Event Type: East-Bound Arrival Time: 628
+Time: 628 Car #427 arrives east-bound - queue length: 34
+Time: 628 Scheduled Event Type: East-Bound Arrival Time: 631
+
+Handling Event Type: West-Bound Arrival Time: 630
+Time: 630 Car #428 arrives west-bound - queue length: 1
+Time: 630 Scheduled Event Type: West-Bound Arrival Time: 644
+
+Handling Event Type: North-Bound Arrival Time: 630
+Time: 630 Car #429 arrives north-bound - queue length: 4
+Time: 630 Scheduled Event Type: North-Bound Arrival Time: 637
+
+Handling Event Type: East-Bound Arrival Time: 631
+Time: 631 Car #430 arrives east-bound - queue length: 35
+Time: 631 Scheduled Event Type: East-Bound Arrival Time: 633
+
+Handling Event Type: East-Bound Arrival Time: 633
+Time: 633 Car #431 arrives east-bound - queue length: 36
+Time: 633 Scheduled Event Type: East-Bound Arrival Time: 634
+
+Handling Event Type: East-Bound Arrival Time: 634
+Time: 634 Car #432 arrives east-bound - queue length: 37
+Time: 634 Scheduled Event Type: East-Bound Arrival Time: 636
+
+Handling Event Type: East-Bound Arrival Time: 636
+Time: 636 Car #433 arrives east-bound - queue length: 38
+Time: 636 Scheduled Event Type: East-Bound Arrival Time: 638
+
+Handling Event Type: Light Change to NS Yellow Time: 637
+Advancing cars on north-south green
+  Car #415 advances north-bound
+  Car #421 advances north-bound
+  Car #424 advances north-bound
+  Car #429 advances north-bound
+  Car #418 advances south-bound
+  Car #423 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 637 Scheduled Event Type: Light Change to EW Green Time: 640
+
+Handling Event Type: North-Bound Arrival Time: 637
+Time: 637 Car #434 arrives north-bound - queue length: 1
+Time: 637 Scheduled Event Type: North-Bound Arrival Time: 644
+
+Handling Event Type: East-Bound Arrival Time: 638
+Time: 638 Car #435 arrives east-bound - queue length: 39
+Time: 638 Scheduled Event Type: East-Bound Arrival Time: 640
+
+Handling Event Type: Light Change to EW Green Time: 640
+Advancing cars on north-south yellow
+  Next north-bound car will NOT advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 1
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 640 Scheduled Event Type: Light Change to EW Yellow Time: 650
+
+Handling Event Type: East-Bound Arrival Time: 640
+Time: 640 Car #436 arrives east-bound - queue length: 40
+Time: 640 Scheduled Event Type: East-Bound Arrival Time: 642
+
+Handling Event Type: East-Bound Arrival Time: 642
+Time: 642 Car #437 arrives east-bound - queue length: 41
+Time: 642 Scheduled Event Type: East-Bound Arrival Time: 646
+
+Handling Event Type: South-Bound Arrival Time: 644
+Time: 644 Car #438 arrives south-bound - queue length: 1
+Time: 644 Scheduled Event Type: South-Bound Arrival Time: 654
+
+Handling Event Type: West-Bound Arrival Time: 644
+Time: 644 Car #439 arrives west-bound - queue length: 2
+Time: 644 Scheduled Event Type: West-Bound Arrival Time: 654
+
+Handling Event Type: North-Bound Arrival Time: 644
+Time: 644 Car #440 arrives north-bound - queue length: 2
+Time: 644 Scheduled Event Type: North-Bound Arrival Time: 651
+
+Handling Event Type: East-Bound Arrival Time: 646
+Time: 646 Car #441 arrives east-bound - queue length: 42
+Time: 646 Scheduled Event Type: East-Bound Arrival Time: 650
+
+Handling Event Type: Light Change to EW Yellow Time: 650
+Advancing cars on east-west green
+  Car #370 advances east-bound
+  Car #374 advances east-bound
+  Car #375 advances east-bound
+  Car #377 advances east-bound
+  Car #379 advances east-bound
+  Car #380 advances east-bound
+  Car #382 advances east-bound
+  Car #385 advances east-bound
+  Car #386 advances east-bound
+  Car #387 advances east-bound
+  Car #428 advances west-bound
+  Car #439 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 32
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 650 Scheduled Event Type: Light Change to NS Green Time: 652
+
+Handling Event Type: East-Bound Arrival Time: 650
+Time: 650 Car #442 arrives east-bound - queue length: 33
+Time: 650 Scheduled Event Type: East-Bound Arrival Time: 651
+
+Handling Event Type: North-Bound Arrival Time: 651
+Time: 651 Car #443 arrives north-bound - queue length: 3
+Time: 651 Scheduled Event Type: North-Bound Arrival Time: 658
+
+Handling Event Type: East-Bound Arrival Time: 651
+Time: 651 Car #444 arrives east-bound - queue length: 34
+Time: 651 Scheduled Event Type: East-Bound Arrival Time: 655
+
+Handling Event Type: Light Change to NS Green Time: 652
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #388 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #390 advances east-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 32
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 652 Scheduled Event Type: Light Change to NS Yellow Time: 669
+
+Handling Event Type: South-Bound Arrival Time: 654
+Time: 654 Car #445 arrives south-bound - queue length: 2
+Time: 654 Scheduled Event Type: South-Bound Arrival Time: 662
+
+Handling Event Type: West-Bound Arrival Time: 654
+Time: 654 Car #446 arrives west-bound - queue length: 1
+Time: 654 Scheduled Event Type: West-Bound Arrival Time: 666
+
+Handling Event Type: East-Bound Arrival Time: 655
+Time: 655 Car #447 arrives east-bound - queue length: 33
+Time: 655 Scheduled Event Type: East-Bound Arrival Time: 657
+
+Handling Event Type: East-Bound Arrival Time: 657
+Time: 657 Car #448 arrives east-bound - queue length: 34
+Time: 657 Scheduled Event Type: East-Bound Arrival Time: 662
+
+Handling Event Type: North-Bound Arrival Time: 658
+Time: 658 Car #449 arrives north-bound - queue length: 4
+Time: 658 Scheduled Event Type: North-Bound Arrival Time: 665
+
+Handling Event Type: South-Bound Arrival Time: 662
+Time: 662 Car #450 arrives south-bound - queue length: 3
+Time: 662 Scheduled Event Type: South-Bound Arrival Time: 670
+
+Handling Event Type: East-Bound Arrival Time: 662
+Time: 662 Car #451 arrives east-bound - queue length: 35
+Time: 662 Scheduled Event Type: East-Bound Arrival Time: 666
+
+Handling Event Type: North-Bound Arrival Time: 665
+Time: 665 Car #452 arrives north-bound - queue length: 5
+Time: 665 Scheduled Event Type: North-Bound Arrival Time: 672
+
+Handling Event Type: West-Bound Arrival Time: 666
+Time: 666 Car #453 arrives west-bound - queue length: 2
+Time: 666 Scheduled Event Type: West-Bound Arrival Time: 679
+
+Handling Event Type: East-Bound Arrival Time: 666
+Time: 666 Car #454 arrives east-bound - queue length: 36
+Time: 666 Scheduled Event Type: East-Bound Arrival Time: 670
+
+Handling Event Type: Light Change to NS Yellow Time: 669
+Advancing cars on north-south green
+  Car #434 advances north-bound
+  Car #440 advances north-bound
+  Car #443 advances north-bound
+  Car #449 advances north-bound
+  Car #452 advances north-bound
+  Car #438 advances south-bound
+  Car #445 advances south-bound
+  Car #450 advances south-bound
+North-bound cars advanced on green: 5 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 669 Scheduled Event Type: Light Change to EW Green Time: 672
+
+Handling Event Type: South-Bound Arrival Time: 670
+Time: 670 Car #455 arrives south-bound - queue length: 1
+Time: 670 Scheduled Event Type: South-Bound Arrival Time: 674
+
+Handling Event Type: East-Bound Arrival Time: 670
+Time: 670 Car #456 arrives east-bound - queue length: 37
+Time: 670 Scheduled Event Type: East-Bound Arrival Time: 672
+
+Handling Event Type: North-Bound Arrival Time: 672
+Time: 672 Car #457 arrives north-bound - queue length: 1
+Time: 672 Scheduled Event Type: North-Bound Arrival Time: 679
+
+Handling Event Type: Light Change to EW Green Time: 672
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #457 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  Next south-bound car will advance on yellow
+  Car #455 advances south-bound
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 672 Scheduled Event Type: Light Change to EW Yellow Time: 682
+
+Handling Event Type: East-Bound Arrival Time: 672
+Time: 672 Car #458 arrives east-bound - queue length: 38
+Time: 672 Scheduled Event Type: East-Bound Arrival Time: 675
+
+Handling Event Type: South-Bound Arrival Time: 674
+Time: 674 Car #459 arrives south-bound - queue length: 1
+Time: 674 Scheduled Event Type: South-Bound Arrival Time: 688
+
+Handling Event Type: East-Bound Arrival Time: 675
+Time: 675 Car #460 arrives east-bound - queue length: 39
+Time: 675 Scheduled Event Type: East-Bound Arrival Time: 678
+
+Handling Event Type: East-Bound Arrival Time: 678
+Time: 678 Car #461 arrives east-bound - queue length: 40
+Time: 678 Scheduled Event Type: East-Bound Arrival Time: 681
+
+Handling Event Type: West-Bound Arrival Time: 679
+Time: 679 Car #462 arrives west-bound - queue length: 3
+Time: 679 Scheduled Event Type: West-Bound Arrival Time: 698
+
+Handling Event Type: North-Bound Arrival Time: 679
+Time: 679 Car #463 arrives north-bound - queue length: 1
+Time: 679 Scheduled Event Type: North-Bound Arrival Time: 686
+
+Handling Event Type: East-Bound Arrival Time: 681
+Time: 681 Car #464 arrives east-bound - queue length: 41
+Time: 681 Scheduled Event Type: East-Bound Arrival Time: 685
+
+Handling Event Type: Light Change to EW Yellow Time: 682
+Advancing cars on east-west green
+  Car #391 advances east-bound
+  Car #395 advances east-bound
+  Car #396 advances east-bound
+  Car #397 advances east-bound
+  Car #399 advances east-bound
+  Car #400 advances east-bound
+  Car #403 advances east-bound
+  Car #405 advances east-bound
+  Car #407 advances east-bound
+  Car #408 advances east-bound
+  Car #446 advances west-bound
+  Car #453 advances west-bound
+  Car #462 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 31
+West-bound cars advanced on green: 3 Remaining queue: 0
+Time: 682 Scheduled Event Type: Light Change to NS Green Time: 684
+
+Handling Event Type: Light Change to NS Green Time: 684
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #409 advances east-bound
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 1 Remaining queue: 30
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 684 Scheduled Event Type: Light Change to NS Yellow Time: 701
+
+Handling Event Type: East-Bound Arrival Time: 685
+Time: 685 Car #465 arrives east-bound - queue length: 31
+Time: 685 Scheduled Event Type: East-Bound Arrival Time: 687
+
+Handling Event Type: North-Bound Arrival Time: 686
+Time: 686 Car #466 arrives north-bound - queue length: 2
+Time: 686 Scheduled Event Type: North-Bound Arrival Time: 693
+
+Handling Event Type: East-Bound Arrival Time: 687
+Time: 687 Car #467 arrives east-bound - queue length: 32
+Time: 687 Scheduled Event Type: East-Bound Arrival Time: 691
+
+Handling Event Type: South-Bound Arrival Time: 688
+Time: 688 Car #468 arrives south-bound - queue length: 2
+Time: 688 Scheduled Event Type: South-Bound Arrival Time: 698
+
+Handling Event Type: East-Bound Arrival Time: 691
+Time: 691 Car #469 arrives east-bound - queue length: 33
+Time: 691 Scheduled Event Type: East-Bound Arrival Time: 694
+
+Handling Event Type: North-Bound Arrival Time: 693
+Time: 693 Car #470 arrives north-bound - queue length: 3
+Time: 693 Scheduled Event Type: North-Bound Arrival Time: 700
+
+Handling Event Type: East-Bound Arrival Time: 694
+Time: 694 Car #471 arrives east-bound - queue length: 34
+Time: 694 Scheduled Event Type: East-Bound Arrival Time: 697
+
+Handling Event Type: East-Bound Arrival Time: 697
+Time: 697 Car #472 arrives east-bound - queue length: 35
+Time: 697 Scheduled Event Type: East-Bound Arrival Time: 699
+
+Handling Event Type: West-Bound Arrival Time: 698
+Time: 698 Car #473 arrives west-bound - queue length: 1
+Time: 698 Scheduled Event Type: West-Bound Arrival Time: 716
+
+Handling Event Type: South-Bound Arrival Time: 698
+Time: 698 Car #474 arrives south-bound - queue length: 3
+Time: 698 Scheduled Event Type: South-Bound Arrival Time: 707
+
+Handling Event Type: East-Bound Arrival Time: 699
+Time: 699 Car #475 arrives east-bound - queue length: 36
+Time: 699 Scheduled Event Type: East-Bound Arrival Time: 701
+
+Handling Event Type: North-Bound Arrival Time: 700
+Time: 700 Car #476 arrives north-bound - queue length: 4
+Time: 700 Scheduled Event Type: North-Bound Arrival Time: 707
+
+Handling Event Type: Light Change to NS Yellow Time: 701
+Advancing cars on north-south green
+  Car #463 advances north-bound
+  Car #466 advances north-bound
+  Car #470 advances north-bound
+  Car #476 advances north-bound
+  Car #459 advances south-bound
+  Car #468 advances south-bound
+  Car #474 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 701 Scheduled Event Type: Light Change to EW Green Time: 704
+
+Handling Event Type: East-Bound Arrival Time: 701
+Time: 701 Car #477 arrives east-bound - queue length: 37
+Time: 701 Scheduled Event Type: East-Bound Arrival Time: 705
+
+Handling Event Type: Light Change to EW Green Time: 704
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 704 Scheduled Event Type: Light Change to EW Yellow Time: 714
+
+Handling Event Type: East-Bound Arrival Time: 705
+Time: 705 Car #478 arrives east-bound - queue length: 38
+Time: 705 Scheduled Event Type: East-Bound Arrival Time: 707
+
+Handling Event Type: South-Bound Arrival Time: 707
+Time: 707 Car #479 arrives south-bound - queue length: 1
+Time: 707 Scheduled Event Type: South-Bound Arrival Time: 719
+
+Handling Event Type: North-Bound Arrival Time: 707
+Time: 707 Car #480 arrives north-bound - queue length: 1
+Time: 707 Scheduled Event Type: North-Bound Arrival Time: 714
+
+Handling Event Type: East-Bound Arrival Time: 707
+Time: 707 Car #481 arrives east-bound - queue length: 39
+Time: 707 Scheduled Event Type: East-Bound Arrival Time: 709
+
+Handling Event Type: East-Bound Arrival Time: 709
+Time: 709 Car #482 arrives east-bound - queue length: 40
+Time: 709 Scheduled Event Type: East-Bound Arrival Time: 711
+
+Handling Event Type: East-Bound Arrival Time: 711
+Time: 711 Car #483 arrives east-bound - queue length: 41
+Time: 711 Scheduled Event Type: East-Bound Arrival Time: 713
+
+Handling Event Type: East-Bound Arrival Time: 713
+Time: 713 Car #484 arrives east-bound - queue length: 42
+Time: 713 Scheduled Event Type: East-Bound Arrival Time: 715
+
+Handling Event Type: Light Change to EW Yellow Time: 714
+Advancing cars on east-west green
+  Car #410 advances east-bound
+  Car #412 advances east-bound
+  Car #413 advances east-bound
+  Car #414 advances east-bound
+  Car #416 advances east-bound
+  Car #419 advances east-bound
+  Car #420 advances east-bound
+  Car #422 advances east-bound
+  Car #425 advances east-bound
+  Car #426 advances east-bound
+  Car #473 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 32
+West-bound cars advanced on green: 1 Remaining queue: 0
+Time: 714 Scheduled Event Type: Light Change to NS Green Time: 716
+
+Handling Event Type: North-Bound Arrival Time: 714
+Time: 714 Car #485 arrives north-bound - queue length: 2
+Time: 714 Scheduled Event Type: North-Bound Arrival Time: 721
+
+Handling Event Type: East-Bound Arrival Time: 715
+Time: 715 Car #486 arrives east-bound - queue length: 33
+Time: 715 Scheduled Event Type: East-Bound Arrival Time: 717
+
+Handling Event Type: West-Bound Arrival Time: 716
+Time: 716 Car #487 arrives west-bound - queue length: 1
+Time: 716 Scheduled Event Type: West-Bound Arrival Time: 731
+
+Handling Event Type: Light Change to NS Green Time: 716
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #427 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #430 advances east-bound
+  Next west-bound car will advance on yellow
+  Car #487 advances west-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 31
+West-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 716 Scheduled Event Type: Light Change to NS Yellow Time: 733
+
+Handling Event Type: East-Bound Arrival Time: 717
+Time: 717 Car #488 arrives east-bound - queue length: 32
+Time: 717 Scheduled Event Type: East-Bound Arrival Time: 717
+
+Handling Event Type: East-Bound Arrival Time: 717
+Time: 717 Car #489 arrives east-bound - queue length: 33
+Time: 717 Scheduled Event Type: East-Bound Arrival Time: 718
+
+Handling Event Type: East-Bound Arrival Time: 718
+Time: 718 Car #490 arrives east-bound - queue length: 34
+Time: 718 Scheduled Event Type: East-Bound Arrival Time: 721
+
+Handling Event Type: South-Bound Arrival Time: 719
+Time: 719 Car #491 arrives south-bound - queue length: 2
+Time: 719 Scheduled Event Type: South-Bound Arrival Time: 734
+
+Handling Event Type: North-Bound Arrival Time: 721
+Time: 721 Car #492 arrives north-bound - queue length: 3
+Time: 721 Scheduled Event Type: North-Bound Arrival Time: 728
+
+Handling Event Type: East-Bound Arrival Time: 721
+Time: 721 Car #493 arrives east-bound - queue length: 35
+Time: 721 Scheduled Event Type: East-Bound Arrival Time: 725
+
+Handling Event Type: East-Bound Arrival Time: 725
+Time: 725 Car #494 arrives east-bound - queue length: 36
+Time: 725 Scheduled Event Type: East-Bound Arrival Time: 727
+
+Handling Event Type: East-Bound Arrival Time: 727
+Time: 727 Car #495 arrives east-bound - queue length: 37
+Time: 727 Scheduled Event Type: East-Bound Arrival Time: 728
+
+Handling Event Type: North-Bound Arrival Time: 728
+Time: 728 Car #496 arrives north-bound - queue length: 4
+Time: 728 Scheduled Event Type: North-Bound Arrival Time: 735
+
+Handling Event Type: East-Bound Arrival Time: 728
+Time: 728 Car #497 arrives east-bound - queue length: 38
+Time: 728 Scheduled Event Type: East-Bound Arrival Time: 729
+
+Handling Event Type: East-Bound Arrival Time: 729
+Time: 729 Car #498 arrives east-bound - queue length: 39
+Time: 729 Scheduled Event Type: East-Bound Arrival Time: 731
+
+Handling Event Type: West-Bound Arrival Time: 731
+Time: 731 Car #499 arrives west-bound - queue length: 1
+Time: 731 Scheduled Event Type: West-Bound Arrival Time: 741
+
+Handling Event Type: East-Bound Arrival Time: 731
+Time: 731 Car #500 arrives east-bound - queue length: 40
+Time: 731 Scheduled Event Type: East-Bound Arrival Time: 735
+
+Handling Event Type: Light Change to NS Yellow Time: 733
+Advancing cars on north-south green
+  Car #480 advances north-bound
+  Car #485 advances north-bound
+  Car #492 advances north-bound
+  Car #496 advances north-bound
+  Car #479 advances south-bound
+  Car #491 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 733 Scheduled Event Type: Light Change to EW Green Time: 736
+
+Handling Event Type: South-Bound Arrival Time: 734
+Time: 734 Car #501 arrives south-bound - queue length: 1
+Time: 734 Scheduled Event Type: South-Bound Arrival Time: 744
+
+Handling Event Type: North-Bound Arrival Time: 735
+Time: 735 Car #502 arrives north-bound - queue length: 1
+Time: 735 Scheduled Event Type: North-Bound Arrival Time: 742
+
+Handling Event Type: East-Bound Arrival Time: 735
+Time: 735 Car #503 arrives east-bound - queue length: 41
+Time: 735 Scheduled Event Type: East-Bound Arrival Time: 738
+
+Handling Event Type: Light Change to EW Green Time: 736
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #502 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  Next south-bound car will NOT advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 1
+Time: 736 Scheduled Event Type: Light Change to EW Yellow Time: 746
+
+Handling Event Type: East-Bound Arrival Time: 738
+Time: 738 Car #504 arrives east-bound - queue length: 42
+Time: 738 Scheduled Event Type: East-Bound Arrival Time: 744
+
+Handling Event Type: West-Bound Arrival Time: 741
+Time: 741 Car #505 arrives west-bound - queue length: 2
+Time: 741 Scheduled Event Type: West-Bound Arrival Time: 751
+
+Handling Event Type: North-Bound Arrival Time: 742
+Time: 742 Car #506 arrives north-bound - queue length: 1
+Time: 742 Scheduled Event Type: North-Bound Arrival Time: 749
+
+Handling Event Type: South-Bound Arrival Time: 744
+Time: 744 Car #507 arrives south-bound - queue length: 2
+Time: 744 Scheduled Event Type: South-Bound Arrival Time: 755
+
+Handling Event Type: East-Bound Arrival Time: 744
+Time: 744 Car #508 arrives east-bound - queue length: 43
+Time: 744 Scheduled Event Type: East-Bound Arrival Time: 747
+
+Handling Event Type: Light Change to EW Yellow Time: 746
+Advancing cars on east-west green
+  Car #431 advances east-bound
+  Car #432 advances east-bound
+  Car #433 advances east-bound
+  Car #435 advances east-bound
+  Car #436 advances east-bound
+  Car #437 advances east-bound
+  Car #441 advances east-bound
+  Car #442 advances east-bound
+  Car #444 advances east-bound
+  Car #447 advances east-bound
+  Car #499 advances west-bound
+  Car #505 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 33
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 746 Scheduled Event Type: Light Change to NS Green Time: 748
+
+Handling Event Type: East-Bound Arrival Time: 747
+Time: 747 Car #509 arrives east-bound - queue length: 34
+Time: 747 Scheduled Event Type: East-Bound Arrival Time: 748
+
+Handling Event Type: Light Change to NS Green Time: 748
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 34
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 748 Scheduled Event Type: Light Change to NS Yellow Time: 765
+
+Handling Event Type: East-Bound Arrival Time: 748
+Time: 748 Car #510 arrives east-bound - queue length: 35
+Time: 748 Scheduled Event Type: East-Bound Arrival Time: 750
+
+Handling Event Type: North-Bound Arrival Time: 749
+Time: 749 Car #511 arrives north-bound - queue length: 2
+Time: 749 Scheduled Event Type: North-Bound Arrival Time: 756
+
+Handling Event Type: East-Bound Arrival Time: 750
+Time: 750 Car #512 arrives east-bound - queue length: 36
+Time: 750 Scheduled Event Type: East-Bound Arrival Time: 754
+
+Handling Event Type: West-Bound Arrival Time: 751
+Time: 751 Car #513 arrives west-bound - queue length: 1
+Time: 751 Scheduled Event Type: West-Bound Arrival Time: 768
+
+Handling Event Type: East-Bound Arrival Time: 754
+Time: 754 Car #514 arrives east-bound - queue length: 37
+Time: 754 Scheduled Event Type: East-Bound Arrival Time: 757
+
+Handling Event Type: South-Bound Arrival Time: 755
+Time: 755 Car #515 arrives south-bound - queue length: 3
+Time: 755 Scheduled Event Type: South-Bound Arrival Time: 763
+
+Handling Event Type: North-Bound Arrival Time: 756
+Time: 756 Car #516 arrives north-bound - queue length: 3
+Time: 756 Scheduled Event Type: North-Bound Arrival Time: 763
+
+Handling Event Type: East-Bound Arrival Time: 757
+Time: 757 Car #517 arrives east-bound - queue length: 38
+Time: 757 Scheduled Event Type: East-Bound Arrival Time: 759
+
+Handling Event Type: East-Bound Arrival Time: 759
+Time: 759 Car #518 arrives east-bound - queue length: 39
+Time: 759 Scheduled Event Type: East-Bound Arrival Time: 762
+
+Handling Event Type: East-Bound Arrival Time: 762
+Time: 762 Car #519 arrives east-bound - queue length: 40
+Time: 762 Scheduled Event Type: East-Bound Arrival Time: 763
+
+Handling Event Type: South-Bound Arrival Time: 763
+Time: 763 Car #520 arrives south-bound - queue length: 4
+Time: 763 Scheduled Event Type: South-Bound Arrival Time: 777
+
+Handling Event Type: North-Bound Arrival Time: 763
+Time: 763 Car #521 arrives north-bound - queue length: 4
+Time: 763 Scheduled Event Type: North-Bound Arrival Time: 770
+
+Handling Event Type: East-Bound Arrival Time: 763
+Time: 763 Car #522 arrives east-bound - queue length: 41
+Time: 763 Scheduled Event Type: East-Bound Arrival Time: 765
+
+Handling Event Type: Light Change to NS Yellow Time: 765
+Advancing cars on north-south green
+  Car #506 advances north-bound
+  Car #511 advances north-bound
+  Car #516 advances north-bound
+  Car #521 advances north-bound
+  Car #501 advances south-bound
+  Car #507 advances south-bound
+  Car #515 advances south-bound
+  Car #520 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 4 Remaining queue: 0
+Time: 765 Scheduled Event Type: Light Change to EW Green Time: 768
+
+Handling Event Type: East-Bound Arrival Time: 765
+Time: 765 Car #523 arrives east-bound - queue length: 42
+Time: 765 Scheduled Event Type: East-Bound Arrival Time: 767
+
+Handling Event Type: East-Bound Arrival Time: 767
+Time: 767 Car #524 arrives east-bound - queue length: 43
+Time: 767 Scheduled Event Type: East-Bound Arrival Time: 769
+
+Handling Event Type: West-Bound Arrival Time: 768
+Time: 768 Car #525 arrives west-bound - queue length: 2
+Time: 768 Scheduled Event Type: West-Bound Arrival Time: 786
+
+Handling Event Type: Light Change to EW Green Time: 768
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 768 Scheduled Event Type: Light Change to EW Yellow Time: 778
+
+Handling Event Type: East-Bound Arrival Time: 769
+Time: 769 Car #526 arrives east-bound - queue length: 44
+Time: 769 Scheduled Event Type: East-Bound Arrival Time: 770
+
+Handling Event Type: North-Bound Arrival Time: 770
+Time: 770 Car #527 arrives north-bound - queue length: 1
+Time: 770 Scheduled Event Type: North-Bound Arrival Time: 777
+
+Handling Event Type: East-Bound Arrival Time: 770
+Time: 770 Car #528 arrives east-bound - queue length: 45
+Time: 770 Scheduled Event Type: East-Bound Arrival Time: 774
+
+Handling Event Type: East-Bound Arrival Time: 774
+Time: 774 Car #529 arrives east-bound - queue length: 46
+Time: 774 Scheduled Event Type: East-Bound Arrival Time: 777
+
+Handling Event Type: South-Bound Arrival Time: 777
+Time: 777 Car #530 arrives south-bound - queue length: 1
+Time: 777 Scheduled Event Type: South-Bound Arrival Time: 791
+
+Handling Event Type: North-Bound Arrival Time: 777
+Time: 777 Car #531 arrives north-bound - queue length: 2
+Time: 777 Scheduled Event Type: North-Bound Arrival Time: 784
+
+Handling Event Type: East-Bound Arrival Time: 777
+Time: 777 Car #532 arrives east-bound - queue length: 47
+Time: 777 Scheduled Event Type: East-Bound Arrival Time: 780
+
+Handling Event Type: Light Change to EW Yellow Time: 778
+Advancing cars on east-west green
+  Car #448 advances east-bound
+  Car #451 advances east-bound
+  Car #454 advances east-bound
+  Car #456 advances east-bound
+  Car #458 advances east-bound
+  Car #460 advances east-bound
+  Car #461 advances east-bound
+  Car #464 advances east-bound
+  Car #465 advances east-bound
+  Car #467 advances east-bound
+  Car #513 advances west-bound
+  Car #525 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 37
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 778 Scheduled Event Type: Light Change to NS Green Time: 780
+
+Handling Event Type: East-Bound Arrival Time: 780
+Time: 780 Car #533 arrives east-bound - queue length: 38
+Time: 780 Scheduled Event Type: East-Bound Arrival Time: 782
+
+Handling Event Type: Light Change to NS Green Time: 780
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 38
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 780 Scheduled Event Type: Light Change to NS Yellow Time: 797
+
+Handling Event Type: East-Bound Arrival Time: 782
+Time: 782 Car #534 arrives east-bound - queue length: 39
+Time: 782 Scheduled Event Type: East-Bound Arrival Time: 783
+
+Handling Event Type: East-Bound Arrival Time: 783
+Time: 783 Car #535 arrives east-bound - queue length: 40
+Time: 783 Scheduled Event Type: East-Bound Arrival Time: 784
+
+Handling Event Type: North-Bound Arrival Time: 784
+Time: 784 Car #536 arrives north-bound - queue length: 3
+Time: 784 Scheduled Event Type: North-Bound Arrival Time: 791
+
+Handling Event Type: East-Bound Arrival Time: 784
+Time: 784 Car #537 arrives east-bound - queue length: 41
+Time: 784 Scheduled Event Type: East-Bound Arrival Time: 787
+
+Handling Event Type: West-Bound Arrival Time: 786
+Time: 786 Car #538 arrives west-bound - queue length: 1
+Time: 786 Scheduled Event Type: West-Bound Arrival Time: 801
+
+Handling Event Type: East-Bound Arrival Time: 787
+Time: 787 Car #539 arrives east-bound - queue length: 42
+Time: 787 Scheduled Event Type: East-Bound Arrival Time: 790
+
+Handling Event Type: East-Bound Arrival Time: 790
+Time: 790 Car #540 arrives east-bound - queue length: 43
+Time: 790 Scheduled Event Type: East-Bound Arrival Time: 791
+
+Handling Event Type: South-Bound Arrival Time: 791
+Time: 791 Car #541 arrives south-bound - queue length: 2
+Time: 791 Scheduled Event Type: South-Bound Arrival Time: 798
+
+Handling Event Type: North-Bound Arrival Time: 791
+Time: 791 Car #542 arrives north-bound - queue length: 4
+Time: 791 Scheduled Event Type: North-Bound Arrival Time: 798
+
+Handling Event Type: East-Bound Arrival Time: 791
+Time: 791 Car #543 arrives east-bound - queue length: 44
+Time: 791 Scheduled Event Type: East-Bound Arrival Time: 792
+
+Handling Event Type: East-Bound Arrival Time: 792
+Time: 792 Car #544 arrives east-bound - queue length: 45
+Time: 792 Scheduled Event Type: East-Bound Arrival Time: 794
+
+Handling Event Type: East-Bound Arrival Time: 794
+Time: 794 Car #545 arrives east-bound - queue length: 46
+Time: 794 Scheduled Event Type: East-Bound Arrival Time: 796
+
+Handling Event Type: East-Bound Arrival Time: 796
+Time: 796 Car #546 arrives east-bound - queue length: 47
+Time: 796 Scheduled Event Type: East-Bound Arrival Time: 800
+
+Handling Event Type: Light Change to NS Yellow Time: 797
+Advancing cars on north-south green
+  Car #527 advances north-bound
+  Car #531 advances north-bound
+  Car #536 advances north-bound
+  Car #542 advances north-bound
+  Car #530 advances south-bound
+  Car #541 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 797 Scheduled Event Type: Light Change to EW Green Time: 800
+
+Handling Event Type: South-Bound Arrival Time: 798
+Time: 798 Car #547 arrives south-bound - queue length: 1
+Time: 798 Scheduled Event Type: South-Bound Arrival Time: 811
+
+Handling Event Type: North-Bound Arrival Time: 798
+Time: 798 Car #548 arrives north-bound - queue length: 1
+Time: 798 Scheduled Event Type: North-Bound Arrival Time: 805
+
+Handling Event Type: East-Bound Arrival Time: 800
+Time: 800 Car #549 arrives east-bound - queue length: 48
+Time: 800 Scheduled Event Type: East-Bound Arrival Time: 804
+
+Handling Event Type: Light Change to EW Green Time: 800
+Advancing cars on north-south yellow
+  Next north-bound car will advance on yellow
+  Car #548 advances north-bound
+  No north-bound cars waiting to advance on yellow
+  Next south-bound car will NOT advance on yellow
+North-bound cars advanced on yellow: 1 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 1
+Time: 800 Scheduled Event Type: Light Change to EW Yellow Time: 810
+
+Handling Event Type: West-Bound Arrival Time: 801
+Time: 801 Car #550 arrives west-bound - queue length: 2
+Time: 801 Scheduled Event Type: West-Bound Arrival Time: 815
+
+Handling Event Type: East-Bound Arrival Time: 804
+Time: 804 Car #551 arrives east-bound - queue length: 49
+Time: 804 Scheduled Event Type: East-Bound Arrival Time: 807
+
+Handling Event Type: North-Bound Arrival Time: 805
+Time: 805 Car #552 arrives north-bound - queue length: 1
+Time: 805 Scheduled Event Type: North-Bound Arrival Time: 812
+
+Handling Event Type: East-Bound Arrival Time: 807
+Time: 807 Car #553 arrives east-bound - queue length: 50
+Time: 807 Scheduled Event Type: East-Bound Arrival Time: 810
+
+Handling Event Type: Light Change to EW Yellow Time: 810
+Advancing cars on east-west green
+  Car #469 advances east-bound
+  Car #471 advances east-bound
+  Car #472 advances east-bound
+  Car #475 advances east-bound
+  Car #477 advances east-bound
+  Car #478 advances east-bound
+  Car #481 advances east-bound
+  Car #482 advances east-bound
+  Car #483 advances east-bound
+  Car #484 advances east-bound
+  Car #538 advances west-bound
+  Car #550 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 40
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 810 Scheduled Event Type: Light Change to NS Green Time: 812
+
+Handling Event Type: East-Bound Arrival Time: 810
+Time: 810 Car #554 arrives east-bound - queue length: 41
+Time: 810 Scheduled Event Type: East-Bound Arrival Time: 814
+
+Handling Event Type: South-Bound Arrival Time: 811
+Time: 811 Car #555 arrives south-bound - queue length: 2
+Time: 811 Scheduled Event Type: South-Bound Arrival Time: 826
+
+Handling Event Type: North-Bound Arrival Time: 812
+Time: 812 Car #556 arrives north-bound - queue length: 2
+Time: 812 Scheduled Event Type: North-Bound Arrival Time: 819
+
+Handling Event Type: Light Change to NS Green Time: 812
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 41
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 812 Scheduled Event Type: Light Change to NS Yellow Time: 829
+
+Handling Event Type: East-Bound Arrival Time: 814
+Time: 814 Car #557 arrives east-bound - queue length: 42
+Time: 814 Scheduled Event Type: East-Bound Arrival Time: 816
+
+Handling Event Type: West-Bound Arrival Time: 815
+Time: 815 Car #558 arrives west-bound - queue length: 1
+Time: 815 Scheduled Event Type: West-Bound Arrival Time: 829
+
+Handling Event Type: East-Bound Arrival Time: 816
+Time: 816 Car #559 arrives east-bound - queue length: 43
+Time: 816 Scheduled Event Type: East-Bound Arrival Time: 820
+
+Handling Event Type: North-Bound Arrival Time: 819
+Time: 819 Car #560 arrives north-bound - queue length: 3
+Time: 819 Scheduled Event Type: North-Bound Arrival Time: 826
+
+Handling Event Type: East-Bound Arrival Time: 820
+Time: 820 Car #561 arrives east-bound - queue length: 44
+Time: 820 Scheduled Event Type: East-Bound Arrival Time: 822
+
+Handling Event Type: East-Bound Arrival Time: 822
+Time: 822 Car #562 arrives east-bound - queue length: 45
+Time: 822 Scheduled Event Type: East-Bound Arrival Time: 825
+
+Handling Event Type: East-Bound Arrival Time: 825
+Time: 825 Car #563 arrives east-bound - queue length: 46
+Time: 825 Scheduled Event Type: East-Bound Arrival Time: 828
+
+Handling Event Type: South-Bound Arrival Time: 826
+Time: 826 Car #564 arrives south-bound - queue length: 3
+Time: 826 Scheduled Event Type: South-Bound Arrival Time: 838
+
+Handling Event Type: North-Bound Arrival Time: 826
+Time: 826 Car #565 arrives north-bound - queue length: 4
+Time: 826 Scheduled Event Type: North-Bound Arrival Time: 833
+
+Handling Event Type: East-Bound Arrival Time: 828
+Time: 828 Car #566 arrives east-bound - queue length: 47
+Time: 828 Scheduled Event Type: East-Bound Arrival Time: 830
+
+Handling Event Type: Light Change to NS Yellow Time: 829
+Advancing cars on north-south green
+  Car #552 advances north-bound
+  Car #556 advances north-bound
+  Car #560 advances north-bound
+  Car #565 advances north-bound
+  Car #547 advances south-bound
+  Car #555 advances south-bound
+  Car #564 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 829 Scheduled Event Type: Light Change to EW Green Time: 832
+
+Handling Event Type: West-Bound Arrival Time: 829
+Time: 829 Car #567 arrives west-bound - queue length: 2
+Time: 829 Scheduled Event Type: West-Bound Arrival Time: 843
+
+Handling Event Type: East-Bound Arrival Time: 830
+Time: 830 Car #568 arrives east-bound - queue length: 48
+Time: 830 Scheduled Event Type: East-Bound Arrival Time: 833
+
+Handling Event Type: Light Change to EW Green Time: 832
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 832 Scheduled Event Type: Light Change to EW Yellow Time: 842
+
+Handling Event Type: North-Bound Arrival Time: 833
+Time: 833 Car #569 arrives north-bound - queue length: 1
+Time: 833 Scheduled Event Type: North-Bound Arrival Time: 840
+
+Handling Event Type: East-Bound Arrival Time: 833
+Time: 833 Car #570 arrives east-bound - queue length: 49
+Time: 833 Scheduled Event Type: East-Bound Arrival Time: 836
+
+Handling Event Type: East-Bound Arrival Time: 836
+Time: 836 Car #571 arrives east-bound - queue length: 50
+Time: 836 Scheduled Event Type: East-Bound Arrival Time: 837
+
+Handling Event Type: East-Bound Arrival Time: 837
+Time: 837 Car #572 arrives east-bound - queue length: 51
+Time: 837 Scheduled Event Type: East-Bound Arrival Time: 841
+
+Handling Event Type: South-Bound Arrival Time: 838
+Time: 838 Car #573 arrives south-bound - queue length: 1
+Time: 838 Scheduled Event Type: South-Bound Arrival Time: 854
+
+Handling Event Type: North-Bound Arrival Time: 840
+Time: 840 Car #574 arrives north-bound - queue length: 2
+Time: 840 Scheduled Event Type: North-Bound Arrival Time: 847
+
+Handling Event Type: East-Bound Arrival Time: 841
+Time: 841 Car #575 arrives east-bound - queue length: 52
+Time: 841 Scheduled Event Type: East-Bound Arrival Time: 844
+
+Handling Event Type: Light Change to EW Yellow Time: 842
+Advancing cars on east-west green
+  Car #486 advances east-bound
+  Car #488 advances east-bound
+  Car #489 advances east-bound
+  Car #490 advances east-bound
+  Car #493 advances east-bound
+  Car #494 advances east-bound
+  Car #495 advances east-bound
+  Car #497 advances east-bound
+  Car #498 advances east-bound
+  Car #500 advances east-bound
+  Car #558 advances west-bound
+  Car #567 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 42
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 842 Scheduled Event Type: Light Change to NS Green Time: 844
+
+Handling Event Type: West-Bound Arrival Time: 843
+Time: 843 Car #576 arrives west-bound - queue length: 1
+Time: 843 Scheduled Event Type: West-Bound Arrival Time: 854
+
+Handling Event Type: East-Bound Arrival Time: 844
+Time: 844 Car #577 arrives east-bound - queue length: 43
+Time: 844 Scheduled Event Type: East-Bound Arrival Time: 847
+
+Handling Event Type: Light Change to NS Green Time: 844
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #503 advances east-bound
+  Next east-bound car will NOT advance on yellow
+  Next west-bound car will advance on yellow
+  Car #576 advances west-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 1 Remaining queue: 42
+West-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 844 Scheduled Event Type: Light Change to NS Yellow Time: 861
+
+Handling Event Type: North-Bound Arrival Time: 847
+Time: 847 Car #578 arrives north-bound - queue length: 3
+Time: 847 Scheduled Event Type: North-Bound Arrival Time: 854
+
+Handling Event Type: East-Bound Arrival Time: 847
+Time: 847 Car #579 arrives east-bound - queue length: 43
+Time: 847 Scheduled Event Type: East-Bound Arrival Time: 850
+
+Handling Event Type: East-Bound Arrival Time: 850
+Time: 850 Car #580 arrives east-bound - queue length: 44
+Time: 850 Scheduled Event Type: East-Bound Arrival Time: 854
+
+Handling Event Type: South-Bound Arrival Time: 854
+Time: 854 Car #581 arrives south-bound - queue length: 2
+Time: 854 Scheduled Event Type: South-Bound Arrival Time: 868
+
+Handling Event Type: West-Bound Arrival Time: 854
+Time: 854 Car #582 arrives west-bound - queue length: 1
+Time: 854 Scheduled Event Type: West-Bound Arrival Time: 867
+
+Handling Event Type: North-Bound Arrival Time: 854
+Time: 854 Car #583 arrives north-bound - queue length: 4
+Time: 854 Scheduled Event Type: North-Bound Arrival Time: 861
+
+Handling Event Type: East-Bound Arrival Time: 854
+Time: 854 Car #584 arrives east-bound - queue length: 45
+Time: 854 Scheduled Event Type: East-Bound Arrival Time: 855
+
+Handling Event Type: East-Bound Arrival Time: 855
+Time: 855 Car #585 arrives east-bound - queue length: 46
+Time: 855 Scheduled Event Type: East-Bound Arrival Time: 859
+
+Handling Event Type: East-Bound Arrival Time: 859
+Time: 859 Car #586 arrives east-bound - queue length: 47
+Time: 859 Scheduled Event Type: East-Bound Arrival Time: 861
+
+Handling Event Type: Light Change to NS Yellow Time: 861
+Advancing cars on north-south green
+  Car #569 advances north-bound
+  Car #574 advances north-bound
+  Car #578 advances north-bound
+  Car #583 advances north-bound
+  Car #573 advances south-bound
+  Car #581 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 861 Scheduled Event Type: Light Change to EW Green Time: 864
+
+Handling Event Type: North-Bound Arrival Time: 861
+Time: 861 Car #587 arrives north-bound - queue length: 1
+Time: 861 Scheduled Event Type: North-Bound Arrival Time: 868
+
+Handling Event Type: East-Bound Arrival Time: 861
+Time: 861 Car #588 arrives east-bound - queue length: 48
+Time: 861 Scheduled Event Type: East-Bound Arrival Time: 865
+
+Handling Event Type: Light Change to EW Green Time: 864
+Advancing cars on north-south yellow
+  Next north-bound car will NOT advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 1
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 864 Scheduled Event Type: Light Change to EW Yellow Time: 874
+
+Handling Event Type: East-Bound Arrival Time: 865
+Time: 865 Car #589 arrives east-bound - queue length: 49
+Time: 865 Scheduled Event Type: East-Bound Arrival Time: 869
+
+Handling Event Type: West-Bound Arrival Time: 867
+Time: 867 Car #590 arrives west-bound - queue length: 2
+Time: 867 Scheduled Event Type: West-Bound Arrival Time: 877
+
+Handling Event Type: South-Bound Arrival Time: 868
+Time: 868 Car #591 arrives south-bound - queue length: 1
+Time: 868 Scheduled Event Type: South-Bound Arrival Time: 879
+
+Handling Event Type: North-Bound Arrival Time: 868
+Time: 868 Car #592 arrives north-bound - queue length: 2
+Time: 868 Scheduled Event Type: North-Bound Arrival Time: 875
+
+Handling Event Type: East-Bound Arrival Time: 869
+Time: 869 Car #593 arrives east-bound - queue length: 50
+Time: 869 Scheduled Event Type: East-Bound Arrival Time: 870
+
+Handling Event Type: East-Bound Arrival Time: 870
+Time: 870 Car #594 arrives east-bound - queue length: 51
+Time: 870 Scheduled Event Type: East-Bound Arrival Time: 872
+
+Handling Event Type: East-Bound Arrival Time: 872
+Time: 872 Car #595 arrives east-bound - queue length: 52
+Time: 872 Scheduled Event Type: East-Bound Arrival Time: 872
+
+Handling Event Type: East-Bound Arrival Time: 872
+Time: 872 Car #596 arrives east-bound - queue length: 53
+Time: 872 Scheduled Event Type: East-Bound Arrival Time: 874
+
+Handling Event Type: Light Change to EW Yellow Time: 874
+Advancing cars on east-west green
+  Car #504 advances east-bound
+  Car #508 advances east-bound
+  Car #509 advances east-bound
+  Car #510 advances east-bound
+  Car #512 advances east-bound
+  Car #514 advances east-bound
+  Car #517 advances east-bound
+  Car #518 advances east-bound
+  Car #519 advances east-bound
+  Car #522 advances east-bound
+  Car #582 advances west-bound
+  Car #590 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 43
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 874 Scheduled Event Type: Light Change to NS Green Time: 876
+
+Handling Event Type: East-Bound Arrival Time: 874
+Time: 874 Car #597 arrives east-bound - queue length: 44
+Time: 874 Scheduled Event Type: East-Bound Arrival Time: 878
+
+Handling Event Type: North-Bound Arrival Time: 875
+Time: 875 Car #598 arrives north-bound - queue length: 3
+Time: 875 Scheduled Event Type: North-Bound Arrival Time: 882
+
+Handling Event Type: Light Change to NS Green Time: 876
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 44
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 876 Scheduled Event Type: Light Change to NS Yellow Time: 893
+
+Handling Event Type: West-Bound Arrival Time: 877
+Time: 877 Car #599 arrives west-bound - queue length: 1
+Time: 877 Scheduled Event Type: West-Bound Arrival Time: 888
+
+Handling Event Type: East-Bound Arrival Time: 878
+Time: 878 Car #600 arrives east-bound - queue length: 45
+Time: 878 Scheduled Event Type: East-Bound Arrival Time: 879
+
+Handling Event Type: South-Bound Arrival Time: 879
+Time: 879 Car #601 arrives south-bound - queue length: 2
+Time: 879 Scheduled Event Type: South-Bound Arrival Time: 894
+
+Handling Event Type: East-Bound Arrival Time: 879
+Time: 879 Car #602 arrives east-bound - queue length: 46
+Time: 879 Scheduled Event Type: East-Bound Arrival Time: 883
+
+Handling Event Type: North-Bound Arrival Time: 882
+Time: 882 Car #603 arrives north-bound - queue length: 4
+Time: 882 Scheduled Event Type: North-Bound Arrival Time: 889
+
+Handling Event Type: East-Bound Arrival Time: 883
+Time: 883 Car #604 arrives east-bound - queue length: 47
+Time: 883 Scheduled Event Type: East-Bound Arrival Time: 885
+
+Handling Event Type: East-Bound Arrival Time: 885
+Time: 885 Car #605 arrives east-bound - queue length: 48
+Time: 885 Scheduled Event Type: East-Bound Arrival Time: 889
+
+Handling Event Type: West-Bound Arrival Time: 888
+Time: 888 Car #606 arrives west-bound - queue length: 2
+Time: 888 Scheduled Event Type: West-Bound Arrival Time: 902
+
+Handling Event Type: North-Bound Arrival Time: 889
+Time: 889 Car #607 arrives north-bound - queue length: 5
+Time: 889 Scheduled Event Type: North-Bound Arrival Time: 896
+
+Handling Event Type: East-Bound Arrival Time: 889
+Time: 889 Car #608 arrives east-bound - queue length: 49
+Time: 889 Scheduled Event Type: East-Bound Arrival Time: 892
+
+Handling Event Type: East-Bound Arrival Time: 892
+Time: 892 Car #609 arrives east-bound - queue length: 50
+Time: 892 Scheduled Event Type: East-Bound Arrival Time: 894
+
+Handling Event Type: Light Change to NS Yellow Time: 893
+Advancing cars on north-south green
+  Car #587 advances north-bound
+  Car #592 advances north-bound
+  Car #598 advances north-bound
+  Car #603 advances north-bound
+  Car #607 advances north-bound
+  Car #591 advances south-bound
+  Car #601 advances south-bound
+North-bound cars advanced on green: 5 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 893 Scheduled Event Type: Light Change to EW Green Time: 896
+
+Handling Event Type: South-Bound Arrival Time: 894
+Time: 894 Car #610 arrives south-bound - queue length: 1
+Time: 894 Scheduled Event Type: South-Bound Arrival Time: 907
+
+Handling Event Type: East-Bound Arrival Time: 894
+Time: 894 Car #611 arrives east-bound - queue length: 51
+Time: 894 Scheduled Event Type: East-Bound Arrival Time: 897
+
+Handling Event Type: North-Bound Arrival Time: 896
+Time: 896 Car #612 arrives north-bound - queue length: 1
+Time: 896 Scheduled Event Type: North-Bound Arrival Time: 903
+
+Handling Event Type: Light Change to EW Green Time: 896
+Advancing cars on north-south yellow
+  Next north-bound car will NOT advance on yellow
+  Next south-bound car will advance on yellow
+  Car #610 advances south-bound
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 1
+South-bound cars advanced on yellow: 1 Remaining queue: 0
+Time: 896 Scheduled Event Type: Light Change to EW Yellow Time: 906
+
+Handling Event Type: East-Bound Arrival Time: 897
+Time: 897 Car #613 arrives east-bound - queue length: 52
+Time: 897 Scheduled Event Type: East-Bound Arrival Time: 900
+
+Handling Event Type: East-Bound Arrival Time: 900
+Time: 900 Car #614 arrives east-bound - queue length: 53
+Time: 900 Scheduled Event Type: East-Bound Arrival Time: 902
+
+Handling Event Type: West-Bound Arrival Time: 902
+Time: 902 Car #615 arrives west-bound - queue length: 3
+Time: 902 Scheduled Event Type: West-Bound Arrival Time: 915
+
+Handling Event Type: East-Bound Arrival Time: 902
+Time: 902 Car #616 arrives east-bound - queue length: 54
+Time: 902 Scheduled Event Type: East-Bound Arrival Time: 905
+
+Handling Event Type: North-Bound Arrival Time: 903
+Time: 903 Car #617 arrives north-bound - queue length: 2
+Time: 903 Scheduled Event Type: North-Bound Arrival Time: 910
+
+Handling Event Type: East-Bound Arrival Time: 905
+Time: 905 Car #618 arrives east-bound - queue length: 55
+Time: 905 Scheduled Event Type: East-Bound Arrival Time: 908
+
+Handling Event Type: Light Change to EW Yellow Time: 906
+Advancing cars on east-west green
+  Car #523 advances east-bound
+  Car #524 advances east-bound
+  Car #526 advances east-bound
+  Car #528 advances east-bound
+  Car #529 advances east-bound
+  Car #532 advances east-bound
+  Car #533 advances east-bound
+  Car #534 advances east-bound
+  Car #535 advances east-bound
+  Car #537 advances east-bound
+  Car #599 advances west-bound
+  Car #606 advances west-bound
+  Car #615 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 45
+West-bound cars advanced on green: 3 Remaining queue: 0
+Time: 906 Scheduled Event Type: Light Change to NS Green Time: 908
+
+Handling Event Type: South-Bound Arrival Time: 907
+Time: 907 Car #619 arrives south-bound - queue length: 1
+Time: 907 Scheduled Event Type: South-Bound Arrival Time: 920
+
+Handling Event Type: East-Bound Arrival Time: 908
+Time: 908 Car #620 arrives east-bound - queue length: 46
+Time: 908 Scheduled Event Type: East-Bound Arrival Time: 909
+
+Handling Event Type: Light Change to NS Green Time: 908
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 46
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 908 Scheduled Event Type: Light Change to NS Yellow Time: 925
+
+Handling Event Type: East-Bound Arrival Time: 909
+Time: 909 Car #621 arrives east-bound - queue length: 47
+Time: 909 Scheduled Event Type: East-Bound Arrival Time: 913
+
+Handling Event Type: North-Bound Arrival Time: 910
+Time: 910 Car #622 arrives north-bound - queue length: 3
+Time: 910 Scheduled Event Type: North-Bound Arrival Time: 917
+
+Handling Event Type: East-Bound Arrival Time: 913
+Time: 913 Car #623 arrives east-bound - queue length: 48
+Time: 913 Scheduled Event Type: East-Bound Arrival Time: 913
+
+Handling Event Type: East-Bound Arrival Time: 913
+Time: 913 Car #624 arrives east-bound - queue length: 49
+Time: 913 Scheduled Event Type: East-Bound Arrival Time: 917
+
+Handling Event Type: West-Bound Arrival Time: 915
+Time: 915 Car #625 arrives west-bound - queue length: 1
+Time: 915 Scheduled Event Type: West-Bound Arrival Time: 936
+
+Handling Event Type: North-Bound Arrival Time: 917
+Time: 917 Car #626 arrives north-bound - queue length: 4
+Time: 917 Scheduled Event Type: North-Bound Arrival Time: 924
+
+Handling Event Type: East-Bound Arrival Time: 917
+Time: 917 Car #627 arrives east-bound - queue length: 50
+Time: 917 Scheduled Event Type: East-Bound Arrival Time: 920
+
+Handling Event Type: South-Bound Arrival Time: 920
+Time: 920 Car #628 arrives south-bound - queue length: 2
+Time: 920 Scheduled Event Type: South-Bound Arrival Time: 933
+
+Handling Event Type: East-Bound Arrival Time: 920
+Time: 920 Car #629 arrives east-bound - queue length: 51
+Time: 920 Scheduled Event Type: East-Bound Arrival Time: 920
+
+Handling Event Type: East-Bound Arrival Time: 920
+Time: 920 Car #630 arrives east-bound - queue length: 52
+Time: 920 Scheduled Event Type: East-Bound Arrival Time: 923
+
+Handling Event Type: East-Bound Arrival Time: 923
+Time: 923 Car #631 arrives east-bound - queue length: 53
+Time: 923 Scheduled Event Type: East-Bound Arrival Time: 924
+
+Handling Event Type: North-Bound Arrival Time: 924
+Time: 924 Car #632 arrives north-bound - queue length: 5
+Time: 924 Scheduled Event Type: North-Bound Arrival Time: 931
+
+Handling Event Type: East-Bound Arrival Time: 924
+Time: 924 Car #633 arrives east-bound - queue length: 54
+Time: 924 Scheduled Event Type: East-Bound Arrival Time: 927
+
+Handling Event Type: Light Change to NS Yellow Time: 925
+Advancing cars on north-south green
+  Car #612 advances north-bound
+  Car #617 advances north-bound
+  Car #622 advances north-bound
+  Car #626 advances north-bound
+  Car #632 advances north-bound
+  Car #619 advances south-bound
+  Car #628 advances south-bound
+North-bound cars advanced on green: 5 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 925 Scheduled Event Type: Light Change to EW Green Time: 928
+
+Handling Event Type: East-Bound Arrival Time: 927
+Time: 927 Car #634 arrives east-bound - queue length: 55
+Time: 927 Scheduled Event Type: East-Bound Arrival Time: 930
+
+Handling Event Type: Light Change to EW Green Time: 928
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 928 Scheduled Event Type: Light Change to EW Yellow Time: 938
+
+Handling Event Type: East-Bound Arrival Time: 930
+Time: 930 Car #635 arrives east-bound - queue length: 56
+Time: 930 Scheduled Event Type: East-Bound Arrival Time: 933
+
+Handling Event Type: North-Bound Arrival Time: 931
+Time: 931 Car #636 arrives north-bound - queue length: 1
+Time: 931 Scheduled Event Type: North-Bound Arrival Time: 938
+
+Handling Event Type: South-Bound Arrival Time: 933
+Time: 933 Car #637 arrives south-bound - queue length: 1
+Time: 933 Scheduled Event Type: South-Bound Arrival Time: 943
+
+Handling Event Type: East-Bound Arrival Time: 933
+Time: 933 Car #638 arrives east-bound - queue length: 57
+Time: 933 Scheduled Event Type: East-Bound Arrival Time: 937
+
+Handling Event Type: West-Bound Arrival Time: 936
+Time: 936 Car #639 arrives west-bound - queue length: 2
+Time: 936 Scheduled Event Type: West-Bound Arrival Time: 948
+
+Handling Event Type: East-Bound Arrival Time: 937
+Time: 937 Car #640 arrives east-bound - queue length: 58
+Time: 937 Scheduled Event Type: East-Bound Arrival Time: 941
+
+Handling Event Type: Light Change to EW Yellow Time: 938
+Advancing cars on east-west green
+  Car #539 advances east-bound
+  Car #540 advances east-bound
+  Car #543 advances east-bound
+  Car #544 advances east-bound
+  Car #545 advances east-bound
+  Car #546 advances east-bound
+  Car #549 advances east-bound
+  Car #551 advances east-bound
+  Car #553 advances east-bound
+  Car #554 advances east-bound
+  Car #625 advances west-bound
+  Car #639 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 48
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 938 Scheduled Event Type: Light Change to NS Green Time: 940
+
+Handling Event Type: North-Bound Arrival Time: 938
+Time: 938 Car #641 arrives north-bound - queue length: 2
+Time: 938 Scheduled Event Type: North-Bound Arrival Time: 945
+
+Handling Event Type: Light Change to NS Green Time: 940
+Advancing cars on east-west yellow
+  Next east-bound car will NOT advance on yellow
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 0 Remaining queue: 48
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 940 Scheduled Event Type: Light Change to NS Yellow Time: 957
+
+Handling Event Type: East-Bound Arrival Time: 941
+Time: 941 Car #642 arrives east-bound - queue length: 49
+Time: 941 Scheduled Event Type: East-Bound Arrival Time: 945
+
+Handling Event Type: South-Bound Arrival Time: 943
+Time: 943 Car #643 arrives south-bound - queue length: 2
+Time: 943 Scheduled Event Type: South-Bound Arrival Time: 961
+
+Handling Event Type: North-Bound Arrival Time: 945
+Time: 945 Car #644 arrives north-bound - queue length: 3
+Time: 945 Scheduled Event Type: North-Bound Arrival Time: 952
+
+Handling Event Type: East-Bound Arrival Time: 945
+Time: 945 Car #645 arrives east-bound - queue length: 50
+Time: 945 Scheduled Event Type: East-Bound Arrival Time: 947
+
+Handling Event Type: East-Bound Arrival Time: 947
+Time: 947 Car #646 arrives east-bound - queue length: 51
+Time: 947 Scheduled Event Type: East-Bound Arrival Time: 949
+
+Handling Event Type: West-Bound Arrival Time: 948
+Time: 948 Car #647 arrives west-bound - queue length: 1
+Time: 948 Scheduled Event Type: West-Bound Arrival Time: 964
+
+Handling Event Type: East-Bound Arrival Time: 949
+Time: 949 Car #648 arrives east-bound - queue length: 52
+Time: 949 Scheduled Event Type: East-Bound Arrival Time: 949
+
+Handling Event Type: East-Bound Arrival Time: 949
+Time: 949 Car #649 arrives east-bound - queue length: 53
+Time: 949 Scheduled Event Type: East-Bound Arrival Time: 951
+
+Handling Event Type: East-Bound Arrival Time: 951
+Time: 951 Car #650 arrives east-bound - queue length: 54
+Time: 951 Scheduled Event Type: East-Bound Arrival Time: 955
+
+Handling Event Type: North-Bound Arrival Time: 952
+Time: 952 Car #651 arrives north-bound - queue length: 4
+Time: 952 Scheduled Event Type: North-Bound Arrival Time: 959
+
+Handling Event Type: East-Bound Arrival Time: 955
+Time: 955 Car #652 arrives east-bound - queue length: 55
+Time: 955 Scheduled Event Type: East-Bound Arrival Time: 956
+
+Handling Event Type: East-Bound Arrival Time: 956
+Time: 956 Car #653 arrives east-bound - queue length: 56
+Time: 956 Scheduled Event Type: East-Bound Arrival Time: 960
+
+Handling Event Type: Light Change to NS Yellow Time: 957
+Advancing cars on north-south green
+  Car #636 advances north-bound
+  Car #641 advances north-bound
+  Car #644 advances north-bound
+  Car #651 advances north-bound
+  Car #637 advances south-bound
+  Car #643 advances south-bound
+North-bound cars advanced on green: 4 Remaining queue: 0
+South-bound cars advanced on green: 2 Remaining queue: 0
+Time: 957 Scheduled Event Type: Light Change to EW Green Time: 960
+
+Handling Event Type: North-Bound Arrival Time: 959
+Time: 959 Car #654 arrives north-bound - queue length: 1
+Time: 959 Scheduled Event Type: North-Bound Arrival Time: 966
+
+Handling Event Type: East-Bound Arrival Time: 960
+Time: 960 Car #655 arrives east-bound - queue length: 57
+Time: 960 Scheduled Event Type: East-Bound Arrival Time: 962
+
+Handling Event Type: Light Change to EW Green Time: 960
+Advancing cars on north-south yellow
+  Next north-bound car will NOT advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 1
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 960 Scheduled Event Type: Light Change to EW Yellow Time: 970
+
+Handling Event Type: South-Bound Arrival Time: 961
+Time: 961 Car #656 arrives south-bound - queue length: 1
+Time: 961 Scheduled Event Type: South-Bound Arrival Time: 972
+
+Handling Event Type: East-Bound Arrival Time: 962
+Time: 962 Car #657 arrives east-bound - queue length: 58
+Time: 962 Scheduled Event Type: East-Bound Arrival Time: 964
+
+Handling Event Type: West-Bound Arrival Time: 964
+Time: 964 Car #658 arrives west-bound - queue length: 2
+Time: 964 Scheduled Event Type: West-Bound Arrival Time: 984
+
+Handling Event Type: East-Bound Arrival Time: 964
+Time: 964 Car #659 arrives east-bound - queue length: 59
+Time: 964 Scheduled Event Type: East-Bound Arrival Time: 967
+
+Handling Event Type: North-Bound Arrival Time: 966
+Time: 966 Car #660 arrives north-bound - queue length: 2
+Time: 966 Scheduled Event Type: North-Bound Arrival Time: 973
+
+Handling Event Type: East-Bound Arrival Time: 967
+Time: 967 Car #661 arrives east-bound - queue length: 60
+Time: 967 Scheduled Event Type: East-Bound Arrival Time: 968
+
+Handling Event Type: East-Bound Arrival Time: 968
+Time: 968 Car #662 arrives east-bound - queue length: 61
+Time: 968 Scheduled Event Type: East-Bound Arrival Time: 969
+
+Handling Event Type: East-Bound Arrival Time: 969
+Time: 969 Car #663 arrives east-bound - queue length: 62
+Time: 969 Scheduled Event Type: East-Bound Arrival Time: 971
+
+Handling Event Type: Light Change to EW Yellow Time: 970
+Advancing cars on east-west green
+  Car #557 advances east-bound
+  Car #559 advances east-bound
+  Car #561 advances east-bound
+  Car #562 advances east-bound
+  Car #563 advances east-bound
+  Car #566 advances east-bound
+  Car #568 advances east-bound
+  Car #570 advances east-bound
+  Car #571 advances east-bound
+  Car #572 advances east-bound
+  Car #647 advances west-bound
+  Car #658 advances west-bound
+East-bound cars advanced on green: 10 Remaining queue: 52
+West-bound cars advanced on green: 2 Remaining queue: 0
+Time: 970 Scheduled Event Type: Light Change to NS Green Time: 972
+
+Handling Event Type: East-Bound Arrival Time: 971
+Time: 971 Car #664 arrives east-bound - queue length: 53
+Time: 971 Scheduled Event Type: East-Bound Arrival Time: 974
+
+Handling Event Type: South-Bound Arrival Time: 972
+Time: 972 Car #665 arrives south-bound - queue length: 2
+Time: 972 Scheduled Event Type: South-Bound Arrival Time: 984
+
+Handling Event Type: Light Change to NS Green Time: 972
+Advancing cars on east-west yellow
+  Next east-bound car will advance on yellow
+  Car #575 advances east-bound
+  Next east-bound car will advance on yellow
+  Car #577 advances east-bound
+  No west-bound cars waiting to advance on yellow
+East-bound cars advanced on yellow: 2 Remaining queue: 51
+West-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 972 Scheduled Event Type: Light Change to NS Yellow Time: 989
+
+Handling Event Type: North-Bound Arrival Time: 973
+Time: 973 Car #666 arrives north-bound - queue length: 3
+Time: 973 Scheduled Event Type: North-Bound Arrival Time: 980
+
+Handling Event Type: East-Bound Arrival Time: 974
+Time: 974 Car #667 arrives east-bound - queue length: 52
+Time: 974 Scheduled Event Type: East-Bound Arrival Time: 976
+
+Handling Event Type: East-Bound Arrival Time: 976
+Time: 976 Car #668 arrives east-bound - queue length: 53
+Time: 976 Scheduled Event Type: East-Bound Arrival Time: 980
+
+Handling Event Type: North-Bound Arrival Time: 980
+Time: 980 Car #669 arrives north-bound - queue length: 4
+Time: 980 Scheduled Event Type: North-Bound Arrival Time: 987
+
+Handling Event Type: East-Bound Arrival Time: 980
+Time: 980 Car #670 arrives east-bound - queue length: 54
+Time: 980 Scheduled Event Type: East-Bound Arrival Time: 983
+
+Handling Event Type: East-Bound Arrival Time: 983
+Time: 983 Car #671 arrives east-bound - queue length: 55
+Time: 983 Scheduled Event Type: East-Bound Arrival Time: 985
+
+Handling Event Type: West-Bound Arrival Time: 984
+Time: 984 Car #672 arrives west-bound - queue length: 1
+Time: 984 Scheduled Event Type: West-Bound Arrival Time: 1001
+
+Handling Event Type: South-Bound Arrival Time: 984
+Time: 984 Car #673 arrives south-bound - queue length: 3
+Time: 984 Scheduled Event Type: South-Bound Arrival Time: 999
+
+Handling Event Type: East-Bound Arrival Time: 985
+Time: 985 Car #674 arrives east-bound - queue length: 56
+Time: 985 Scheduled Event Type: East-Bound Arrival Time: 987
+
+Handling Event Type: North-Bound Arrival Time: 987
+Time: 987 Car #675 arrives north-bound - queue length: 5
+Time: 987 Scheduled Event Type: North-Bound Arrival Time: 994
+
+Handling Event Type: East-Bound Arrival Time: 987
+Time: 987 Car #676 arrives east-bound - queue length: 57
+Time: 987 Scheduled Event Type: East-Bound Arrival Time: 990
+
+Handling Event Type: Light Change to NS Yellow Time: 989
+Advancing cars on north-south green
+  Car #654 advances north-bound
+  Car #660 advances north-bound
+  Car #666 advances north-bound
+  Car #669 advances north-bound
+  Car #675 advances north-bound
+  Car #656 advances south-bound
+  Car #665 advances south-bound
+  Car #673 advances south-bound
+North-bound cars advanced on green: 5 Remaining queue: 0
+South-bound cars advanced on green: 3 Remaining queue: 0
+Time: 989 Scheduled Event Type: Light Change to EW Green Time: 992
+
+Handling Event Type: East-Bound Arrival Time: 990
+Time: 990 Car #677 arrives east-bound - queue length: 58
+Time: 990 Scheduled Event Type: East-Bound Arrival Time: 993
+
+Handling Event Type: Light Change to EW Green Time: 992
+Advancing cars on north-south yellow
+  No north-bound cars waiting to advance on yellow
+  No south-bound cars waiting to advance on yellow
+North-bound cars advanced on yellow: 0 Remaining queue: 0
+South-bound cars advanced on yellow: 0 Remaining queue: 0
+Time: 992 Scheduled Event Type: Light Change to EW Yellow Time: 1002
+
+Handling Event Type: East-Bound Arrival Time: 993
+Time: 993 Car #678 arrives east-bound - queue length: 59
+Time: 993 Scheduled Event Type: East-Bound Arrival Time: 994
+
+Handling Event Type: North-Bound Arrival Time: 994
+Time: 994 Car #679 arrives north-bound - queue length: 1
+Time: 994 Scheduled Event Type: North-Bound Arrival Time: 1001
+
+Handling Event Type: East-Bound Arrival Time: 994
+Time: 994 Car #680 arrives east-bound - queue length: 60
+Time: 994 Scheduled Event Type: East-Bound Arrival Time: 996
+
+Handling Event Type: East-Bound Arrival Time: 996
+Time: 996 Car #681 arrives east-bound - queue length: 61
+Time: 996 Scheduled Event Type: East-Bound Arrival Time: 997
+
+Handling Event Type: East-Bound Arrival Time: 997
+Time: 997 Car #682 arrives east-bound - queue length: 62
+Time: 997 Scheduled Event Type: East-Bound Arrival Time: 999
+
+Handling Event Type: South-Bound Arrival Time: 999
+Time: 999 Car #683 arrives south-bound - queue length: 1
+Time: 999 Scheduled Event Type: South-Bound Arrival Time: 1006
+
+Handling Event Type: East-Bound Arrival Time: 999
+Time: 999 Car #684 arrives east-bound - queue length: 63
+Time: 999 Scheduled Event Type: East-Bound Arrival Time: 1000
+
+Handling Event Type: East-Bound Arrival Time: 1000
+Time: 1000 Car #685 arrives east-bound - queue length: 64
+Time: 1000 Scheduled Event Type: East-Bound Arrival Time: 1003
+
+Next event occurs AFTER the simulation end time (Event Type: West-Bound Arrival Time: 1001)!
+Simulation ran successfully!
+===== Begin Simulation Statistics =====
+  Longest east-bound queue: 64
+  Longest west-bound queue: 3
+  Longest north-bound queue: 5
+  Longest south-bound queue: 4
+  Total cars advanced east-bound: 331
+  Total cars advanced west-bound: 66
+  Total cars advanced north-bound: 141
+  Total cars advanced south-bound: 81
+===== End Simulation Statistics =====
